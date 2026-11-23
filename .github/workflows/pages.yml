@@ -15,6 +15,7 @@ on:
       - 'examples/**'
       - 'schemas/**'
       - 'registry/**'
+      - 'src/**'
   workflow_dispatch:
 
 permissions:
@@ -40,7 +41,7 @@ jobs:
       - name: Validate architecture manifests
         run: python3 tests/validate_bundle.py
       - name: Test site and generate static pages
-        run: python3 -m unittest discover -s tests -p 'test_site.py'
+        run: python3 -m unittest discover -s tests -p 'test_*.py'
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload Pages artifact

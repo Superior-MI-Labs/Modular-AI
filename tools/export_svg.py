@@ -42,9 +42,9 @@ def render(path):
     for src,dst,_,_ in edges:
         if src not in nodes or dst not in nodes:
             raise ValueError(f'Missing node label for {src} or {dst} in {path}')
-    dot=['digraph G {',f'rankdir={direction};','graph [pad="0.25", nodesep="0.40", ranksep="0.55", bgcolor="white", outputorder="edgesfirst", fontname="DejaVu Sans"];', 'node [fontname="DejaVu Sans", fontsize=11, style="rounded,filled", shape="box", color="#AABBC9", fillcolor="#F2F6FA", fontcolor="#183149", penwidth=1.2, margin="0.16,0.12"];', 'edge [color="#5C8299", arrowsize=0.7, penwidth=1.3, fontname="DejaVu Sans", fontsize=9, fontcolor="#496679"];']
+    dot=['digraph G {',f'rankdir={direction};','graph [pad="0.25", nodesep="0.40", ranksep="0.55", bgcolor="#0C2236", outputorder="edgesfirst", fontname="DejaVu Sans"];', 'node [fontname="DejaVu Sans", fontsize=11, style="rounded,filled", shape="box", color="#4A7790", fillcolor="#16364B", fontcolor="#EBF7FA", penwidth=1.2, margin="0.16,0.12"];', 'edge [color="#7DD7DA", arrowsize=0.7, penwidth=1.3, fontname="DejaVu Sans", fontsize=9, fontcolor="#C7E5F0"];']
     for key,(label,decision) in nodes.items():
-        opts=', shape="diamond", fillcolor="#E5F1EE"' if decision else ''
+        opts=', shape="diamond", fillcolor="#164C50"' if decision else ''
         dot.append(f'{quote(key)} [label={quote(label)}{opts}];')
     for src,dst,kind,label in edges:
         extra=[]

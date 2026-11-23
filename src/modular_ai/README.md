@@ -11,3 +11,5 @@ This directory records the intended *boundaries*, not pretend code. Avoid introd
 - `backends/`: device allocation, tensor execution and optional acceleration adapters.
 
 Do not add runtime dependencies to the documentation website. See [architecture decisions](../../docs/01-architecture-decisions.md) and [the roadmap](../../docs/06-roadmap.md).
+
+The first actual code is `core/compatibility.py`, a design-time graph and artifact checker. It is not an execution engine. See `docs/08-core-freeze-plan.md` for exact planned files and freeze gates.

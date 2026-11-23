@@ -8,132 +8,132 @@
  viewBox="0.00 0.00 899.00 203.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 185)">
 <title>G</title>
-<polygon fill="white" stroke="transparent" points="-18,18 -18,-185 881,-185 881,18 -18,18"/>
+<polygon fill="#0c2236" stroke="transparent" points="-18,18 -18,-185 881,-185 881,18 -18,18"/>
 <!-- S0&#45;&gt;U1 -->
 <g id="edge1" class="edge">
 <title>S0&#45;&gt;U1</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M87.13,-137.18C97.74,-134.24 109.13,-131.08 119.8,-128.12"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="120.59,-130.44 126.68,-126.21 119.28,-125.72 120.59,-130.44"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M87.13,-137.18C97.74,-134.24 109.13,-131.08 119.8,-128.12"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="120.59,-130.44 126.68,-126.21 119.28,-125.72 120.59,-130.44"/>
 </g>
 <!-- U1&#45;&gt;S1 -->
 <g id="edge3" class="edge">
 <title>U1&#45;&gt;S1</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M202.19,-116C212.67,-116 224.11,-116 234.68,-116"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="234.84,-118.45 241.84,-116 234.84,-113.55 234.84,-118.45"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M202.19,-116C212.67,-116 224.11,-116 234.68,-116"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="234.84,-118.45 241.84,-116 234.84,-113.55 234.84,-118.45"/>
 </g>
 <!-- X1&#45;&gt;U1 -->
 <g id="edge2" class="edge">
 <title>X1&#45;&gt;U1</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M75.15,-92.24C88.64,-95.87 104.74,-100.2 119.49,-104.16"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="119.2,-106.62 126.6,-106.08 120.47,-101.89 119.2,-106.62"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M75.15,-92.24C88.64,-95.87 104.74,-100.2 119.49,-104.16"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="119.2,-106.62 126.6,-106.08 120.47,-101.89 119.2,-106.62"/>
 </g>
 <!-- S1&#45;&gt;U2 -->
 <g id="edge4" class="edge">
 <title>S1&#45;&gt;U2</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M306.09,-106.46C316.36,-103.3 327.98,-99.73 339.01,-96.35"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="339.8,-98.67 345.78,-94.27 338.37,-93.99 339.8,-98.67"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M306.09,-106.46C316.36,-103.3 327.98,-99.73 339.01,-96.35"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="339.8,-98.67 345.78,-94.27 338.37,-93.99 339.8,-98.67"/>
 </g>
 <!-- U2&#45;&gt;S2 -->
 <g id="edge6" class="edge">
 <title>U2&#45;&gt;S2</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M421.19,-83C431.67,-83 443.11,-83 453.68,-83"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="453.84,-85.45 460.84,-83 453.84,-80.55 453.84,-85.45"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M421.19,-83C431.67,-83 443.11,-83 453.68,-83"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="453.84,-85.45 460.84,-83 453.84,-80.55 453.84,-85.45"/>
 </g>
 <!-- X2&#45;&gt;U2 -->
 <g id="edge5" class="edge">
 <title>X2&#45;&gt;U2</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M305.52,-60.08C315.9,-63.18 327.72,-66.69 338.92,-70.03"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="338.39,-72.43 345.8,-72.08 339.79,-67.73 338.39,-72.43"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M305.52,-60.08C315.9,-63.18 327.72,-66.69 338.92,-70.03"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="338.39,-72.43 345.8,-72.08 339.79,-67.73 338.39,-72.43"/>
 </g>
 <!-- S2&#45;&gt;U3 -->
 <g id="edge7" class="edge">
 <title>S2&#45;&gt;U3</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M525.09,-73.46C535.36,-70.3 546.98,-66.73 558.01,-63.35"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="558.8,-65.67 564.78,-61.27 557.37,-60.99 558.8,-65.67"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M525.09,-73.46C535.36,-70.3 546.98,-66.73 558.01,-63.35"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="558.8,-65.67 564.78,-61.27 557.37,-60.99 558.8,-65.67"/>
 </g>
 <!-- U3&#45;&gt;S3 -->
 <g id="edge9" class="edge">
 <title>U3&#45;&gt;S3</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M640.19,-50C650.67,-50 662.11,-50 672.68,-50"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="672.84,-52.45 679.84,-50 672.84,-47.55 672.84,-52.45"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M640.19,-50C650.67,-50 662.11,-50 672.68,-50"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="672.84,-52.45 679.84,-50 672.84,-47.55 672.84,-52.45"/>
 </g>
 <!-- X3&#45;&gt;U3 -->
 <g id="edge8" class="edge">
 <title>X3&#45;&gt;U3</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M524.52,-27.08C534.9,-30.18 546.72,-33.69 557.92,-37.03"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="557.39,-39.43 564.8,-39.08 558.79,-34.73 557.39,-39.43"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M524.52,-27.08C534.9,-30.18 546.72,-33.69 557.92,-37.03"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="557.39,-39.43 564.8,-39.08 558.79,-34.73 557.39,-39.43"/>
 </g>
 <!-- S3&#45;&gt;OUT -->
 <g id="edge10" class="edge">
 <title>S3&#45;&gt;OUT</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M744.09,-50C754.25,-50 765.77,-50 776.78,-50"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="776.92,-52.45 783.92,-50 776.92,-47.55 776.92,-52.45"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M744.09,-50C754.25,-50 765.77,-50 776.78,-50"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="776.92,-52.45 783.92,-50 776.92,-47.55 776.92,-52.45"/>
 </g>
 <!-- S0 -->
 <g id="node1" class="node">
 <title>S0</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M75,-167C75,-167 12,-167 12,-167 6,-167 0,-161 0,-155 0,-155 0,-143 0,-143 0,-137 6,-131 12,-131 12,-131 75,-131 75,-131 81,-131 87,-137 87,-143 87,-143 87,-155 87,-155 87,-161 81,-167 75,-167"/>
-<text text-anchor="middle" x="43.5" y="-146.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Initial state</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M75,-167C75,-167 12,-167 12,-167 6,-167 0,-161 0,-155 0,-155 0,-143 0,-143 0,-137 6,-131 12,-131 12,-131 75,-131 75,-131 81,-131 87,-137 87,-143 87,-143 87,-155 87,-155 87,-161 81,-167 75,-167"/>
+<text text-anchor="middle" x="43.5" y="-146.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Initial state</text>
 </g>
 <!-- U1 -->
 <g id="node2" class="node">
 <title>U1</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M190,-134C190,-134 139,-134 139,-134 133,-134 127,-128 127,-122 127,-122 127,-110 127,-110 127,-104 133,-98 139,-98 139,-98 190,-98 190,-98 196,-98 202,-104 202,-110 202,-110 202,-122 202,-122 202,-128 196,-134 190,-134"/>
-<text text-anchor="middle" x="164.5" y="-113.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Update 1</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M190,-134C190,-134 139,-134 139,-134 133,-134 127,-128 127,-122 127,-122 127,-110 127,-110 127,-104 133,-98 139,-98 139,-98 190,-98 190,-98 196,-98 202,-104 202,-110 202,-110 202,-122 202,-122 202,-128 196,-134 190,-134"/>
+<text text-anchor="middle" x="164.5" y="-113.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Update 1</text>
 </g>
 <!-- X1 -->
 <g id="node3" class="node">
 <title>X1</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M63,-102C63,-102 24,-102 24,-102 18,-102 12,-96 12,-90 12,-90 12,-78 12,-78 12,-72 18,-66 24,-66 24,-66 63,-66 63,-66 69,-66 75,-72 75,-78 75,-78 75,-90 75,-90 75,-96 69,-102 63,-102"/>
-<text text-anchor="middle" x="43.5" y="-81.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Input 1</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M63,-102C63,-102 24,-102 24,-102 18,-102 12,-96 12,-90 12,-90 12,-78 12,-78 12,-72 18,-66 24,-66 24,-66 63,-66 63,-66 69,-66 75,-72 75,-78 75,-78 75,-90 75,-90 75,-96 69,-102 63,-102"/>
+<text text-anchor="middle" x="43.5" y="-81.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Input 1</text>
 </g>
 <!-- S1 -->
 <g id="node4" class="node">
 <title>S1</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M294,-134C294,-134 254,-134 254,-134 248,-134 242,-128 242,-122 242,-122 242,-110 242,-110 242,-104 248,-98 254,-98 254,-98 294,-98 294,-98 300,-98 306,-104 306,-110 306,-110 306,-122 306,-122 306,-128 300,-134 294,-134"/>
-<text text-anchor="middle" x="274" y="-113.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">State 1</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M294,-134C294,-134 254,-134 254,-134 248,-134 242,-128 242,-122 242,-122 242,-110 242,-110 242,-104 248,-98 254,-98 254,-98 294,-98 294,-98 300,-98 306,-104 306,-110 306,-110 306,-122 306,-122 306,-128 300,-134 294,-134"/>
+<text text-anchor="middle" x="274" y="-113.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">State 1</text>
 </g>
 <!-- U2 -->
 <g id="node5" class="node">
 <title>U2</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M409,-101C409,-101 358,-101 358,-101 352,-101 346,-95 346,-89 346,-89 346,-77 346,-77 346,-71 352,-65 358,-65 358,-65 409,-65 409,-65 415,-65 421,-71 421,-77 421,-77 421,-89 421,-89 421,-95 415,-101 409,-101"/>
-<text text-anchor="middle" x="383.5" y="-80.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Update 2</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M409,-101C409,-101 358,-101 358,-101 352,-101 346,-95 346,-89 346,-89 346,-77 346,-77 346,-71 352,-65 358,-65 358,-65 409,-65 409,-65 415,-65 421,-71 421,-77 421,-77 421,-89 421,-89 421,-95 415,-101 409,-101"/>
+<text text-anchor="middle" x="383.5" y="-80.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Update 2</text>
 </g>
 <!-- X2 -->
 <g id="node6" class="node">
 <title>X2</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M293.5,-69C293.5,-69 254.5,-69 254.5,-69 248.5,-69 242.5,-63 242.5,-57 242.5,-57 242.5,-45 242.5,-45 242.5,-39 248.5,-33 254.5,-33 254.5,-33 293.5,-33 293.5,-33 299.5,-33 305.5,-39 305.5,-45 305.5,-45 305.5,-57 305.5,-57 305.5,-63 299.5,-69 293.5,-69"/>
-<text text-anchor="middle" x="274" y="-48.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Input 2</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M293.5,-69C293.5,-69 254.5,-69 254.5,-69 248.5,-69 242.5,-63 242.5,-57 242.5,-57 242.5,-45 242.5,-45 242.5,-39 248.5,-33 254.5,-33 254.5,-33 293.5,-33 293.5,-33 299.5,-33 305.5,-39 305.5,-45 305.5,-45 305.5,-57 305.5,-57 305.5,-63 299.5,-69 293.5,-69"/>
+<text text-anchor="middle" x="274" y="-48.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Input 2</text>
 </g>
 <!-- S2 -->
 <g id="node7" class="node">
 <title>S2</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M513,-101C513,-101 473,-101 473,-101 467,-101 461,-95 461,-89 461,-89 461,-77 461,-77 461,-71 467,-65 473,-65 473,-65 513,-65 513,-65 519,-65 525,-71 525,-77 525,-77 525,-89 525,-89 525,-95 519,-101 513,-101"/>
-<text text-anchor="middle" x="493" y="-80.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">State 2</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M513,-101C513,-101 473,-101 473,-101 467,-101 461,-95 461,-89 461,-89 461,-77 461,-77 461,-71 467,-65 473,-65 473,-65 513,-65 513,-65 519,-65 525,-71 525,-77 525,-77 525,-89 525,-89 525,-95 519,-101 513,-101"/>
+<text text-anchor="middle" x="493" y="-80.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">State 2</text>
 </g>
 <!-- U3 -->
 <g id="node8" class="node">
 <title>U3</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M628,-68C628,-68 577,-68 577,-68 571,-68 565,-62 565,-56 565,-56 565,-44 565,-44 565,-38 571,-32 577,-32 577,-32 628,-32 628,-32 634,-32 640,-38 640,-44 640,-44 640,-56 640,-56 640,-62 634,-68 628,-68"/>
-<text text-anchor="middle" x="602.5" y="-47.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Update 3</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M628,-68C628,-68 577,-68 577,-68 571,-68 565,-62 565,-56 565,-56 565,-44 565,-44 565,-38 571,-32 577,-32 577,-32 628,-32 628,-32 634,-32 640,-38 640,-44 640,-44 640,-56 640,-56 640,-62 634,-68 628,-68"/>
+<text text-anchor="middle" x="602.5" y="-47.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Update 3</text>
 </g>
 <!-- X3 -->
 <g id="node9" class="node">
 <title>X3</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M512.5,-36C512.5,-36 473.5,-36 473.5,-36 467.5,-36 461.5,-30 461.5,-24 461.5,-24 461.5,-12 461.5,-12 461.5,-6 467.5,0 473.5,0 473.5,0 512.5,0 512.5,0 518.5,0 524.5,-6 524.5,-12 524.5,-12 524.5,-24 524.5,-24 524.5,-30 518.5,-36 512.5,-36"/>
-<text text-anchor="middle" x="493" y="-15.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Input 3</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M512.5,-36C512.5,-36 473.5,-36 473.5,-36 467.5,-36 461.5,-30 461.5,-24 461.5,-24 461.5,-12 461.5,-12 461.5,-6 467.5,0 473.5,0 473.5,0 512.5,0 512.5,0 518.5,0 524.5,-6 524.5,-12 524.5,-12 524.5,-24 524.5,-24 524.5,-30 518.5,-36 512.5,-36"/>
+<text text-anchor="middle" x="493" y="-15.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Input 3</text>
 </g>
 <!-- S3 -->
 <g id="node10" class="node">
 <title>S3</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M732,-68C732,-68 692,-68 692,-68 686,-68 680,-62 680,-56 680,-56 680,-44 680,-44 680,-38 686,-32 692,-32 692,-32 732,-32 732,-32 738,-32 744,-38 744,-44 744,-44 744,-56 744,-56 744,-62 738,-68 732,-68"/>
-<text text-anchor="middle" x="712" y="-47.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">State 3</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M732,-68C732,-68 692,-68 692,-68 686,-68 680,-62 680,-56 680,-56 680,-44 680,-44 680,-38 686,-32 692,-32 692,-32 732,-32 732,-32 738,-32 744,-38 744,-44 744,-44 744,-56 744,-56 744,-62 738,-68 732,-68"/>
+<text text-anchor="middle" x="712" y="-47.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">State 3</text>
 </g>
 <!-- OUT -->
 <g id="node11" class="node">
 <title>OUT</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M851,-68C851,-68 796,-68 796,-68 790,-68 784,-62 784,-56 784,-56 784,-44 784,-44 784,-38 790,-32 796,-32 796,-32 851,-32 851,-32 857,-32 863,-38 863,-44 863,-44 863,-56 863,-56 863,-62 857,-68 851,-68"/>
-<text text-anchor="middle" x="823.5" y="-47.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Prediction</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M851,-68C851,-68 796,-68 796,-68 790,-68 784,-62 784,-56 784,-56 784,-44 784,-44 784,-38 790,-32 796,-32 796,-32 851,-32 851,-32 857,-32 863,-38 863,-44 863,-44 863,-56 863,-56 863,-62 857,-68 851,-68"/>
+<text text-anchor="middle" x="823.5" y="-47.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Prediction</text>
 </g>
 </g>
 </svg>

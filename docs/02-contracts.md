@@ -72,3 +72,7 @@ Module definitions declare ports; the experiment manifest must not duplicate por
 ## Third-party extensions
 
 Only after the core proves stable: package implementations with Python packaging entry points, namespaced immutable IDs and semver-like contract compatibility. A discovered module is **not** automatically trusted, GPU-compatible, or executable; explicit allowlists, dependency checks, resource limits and tests remain necessary.
+
+## Current prototype scope (2026-11-23)
+
+`src/modular_ai/core/compatibility.py` currently checks declared workflow slots, registry-owned port IDs and example artifact fingerprints. It does **not** yet implement typed shape/dtype/layout/unit constraints, immutable artifact storage, safe plugin loading or actual model execution. The [file-level freeze plan](08-core-freeze-plan.md) is the implementation contract for those missing features.

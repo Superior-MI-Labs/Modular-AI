@@ -1,8 +1,8 @@
 # Modular AI · Superior MI Labs
 
-**[Explore the live visual website →](https://superior-mi-labs.github.io/Modular-AI/)** · [Visual lessons](https://superior-mi-labs.github.io/Modular-AI/learn.html) · [Diagram atlas](https://superior-mi-labs.github.io/Modular-AI/atlas.html) · [Architecture](https://superior-mi-labs.github.io/Modular-AI/architecture.html) · [Roadmap](https://superior-mi-labs.github.io/Modular-AI/roadmap.html)
+**[Explore the live visual website →](https://superior-mi-labs.github.io/Modular-AI/)** · [Visual lessons](https://superior-mi-labs.github.io/Modular-AI/learn.html) · [Diagram atlas](https://superior-mi-labs.github.io/Modular-AI/atlas.html) · **[Module compatibility lab](https://superior-mi-labs.github.io/Modular-AI/swap.html)** · [Core completion plan](https://superior-mi-labs.github.io/Modular-AI/core.html) · [Architecture](https://superior-mi-labs.github.io/Modular-AI/architecture.html) · [Roadmap](https://superior-mi-labs.github.io/Modular-AI/roadmap.html)
 
-> A visual learning atlas and architecture blueprint for a small-core, modular AI research framework. **Status: design and website only. No AI runtime, trained model, or model swapping implementation yet.**
+> A visual learning atlas and architecture blueprint for a small-core, modular AI research framework. **Status: design, static visual compatibility lab, and a prototype contract validator. No executable AI runtime, trained model, or actual model-swapping implementation yet.**
 
 ## From entire systems to individual calculations
 
@@ -16,7 +16,7 @@ flowchart LR
     F --> G[Modular experimentation]
 ```
 
-**20 diagrams** explain transformers, diffusion, decision systems, reinforcement learning, graph networks, state-space models, tokens, vectors, training gradients, hardware and modular design. Each diagram has one editable Mermaid source; the website publishes SVG exports and lets visitors search, filter, inspect and download sources.
+**20 dark-blue blueprint diagrams** explain transformers, diffusion, decision systems, reinforcement learning, graph networks, state-space models, tokens, vectors, training gradients, hardware and modular design. Each diagram has one editable Mermaid source; the website publishes SVG exports and lets visitors search, filter, inspect and download sources.
 
 ## The intended modular kernel
 
@@ -32,7 +32,7 @@ flowchart TD
     RUN --> E[Versioned model artifacts]
 ```
 
-The design favors **Ports and Adapters**, **Strategy**, and a **Registry/Factory** over an indiscriminate plugin system. A valid swap must preserve semantic port contracts, data layouts, and checkpoint dependencies. Changing a tokenizer or latent codec may require remapping weights or retraining the model.
+The design favors **Ports and Adapters**, **Strategy**, and a **Registry/Factory** over an indiscriminate plugin system. The [module lab](https://superior-mi-labs.github.io/Modular-AI/swap.html) uses the same Python design-time validator as the tests and includes incompatible and migration-required scenarios. A valid swap must preserve semantic port contracts, data layouts, and checkpoint dependencies. Changing a tokenizer or latent codec may require remapping weights or retraining the model.
 
 ## Explore the repository
 
@@ -40,10 +40,10 @@ The design favors **Ports and Adapters**, **Strategy**, and a **Registry/Factory
 |---|---|
 | [`site/`](site/) | Lightweight multi-page learning website, no frontend package dependencies |
 | [`diagrams/`](diagrams/) | 20 editable Mermaid sources, generated SVGs, structured diagram catalog |
-| [`docs/`](docs/) | Architecture decisions, contracts, lifecycle, model families, tests and sources |
+| [`docs/`](docs/) | Architecture decisions, lifecycle, audited risks, [file-by-file core freeze plan](docs/08-core-freeze-plan.md), tests and sources |
 | [`examples/`](examples/) | Five illustrative experiment manifests: decision, text, image, video and VAD state |
 | [`registry/`](registry/) + [`schemas/`](schemas/) | Conceptual module definitions and experiment validation schema |
-| [`src/modular_ai/`](src/modular_ai/) | Explicit planned boundaries for the future execution framework |
+| [`src/modular_ai/`](src/modular_ai/) | Planned boundaries and prototype semantic/artifact compatibility checker (no runner yet) |
 | [`tools/`](tools/) + [`tests/`](tests/) | Diagram export, site publishing, and structural validation |
 
 ## Build and validate locally
@@ -61,12 +61,11 @@ Open `http://localhost:8000/` to preview. Publishing uses one GitHub Actions wor
 
 ## Development direction
 
-1. **Baseline:** configuration/registry/typed-port validation plus a deterministic decision environment.
-2. **First trainable model:** one neural reference pipeline with checkpoint and evaluation tests.
-3. **Representation experiments:** custom tokens, state encodings, memory structures and explicit migration rules.
-4. **Optimization:** precision, quantization, benchmarks, reproducibility and model artifact lineage.
-5. **Expansion:** text, image, audio and video model families with their own control loops.
+1. **Contracts:** finalize typed schemas, registry, manifest, capability and artifact validation.
+2. **Execution:** prove deterministic decision module swaps and bounded workflow execution.
+3. **Core freeze:** reference token, iterative and training loops; checkpoint/resume, immutable derivatives, extension and failure tests.
+4. **After core v1:** add text, image, audio and video model implementations, training algorithms and quantization strategies as modules, not kernel patches.
 
-Start with the [roadmap](docs/06-roadmap.md) and [acceptance tests](docs/05-tests.md). The modular design should be proven by tests before it is generalized.
+Start with the [core freeze specification](docs/08-core-freeze-plan.md), [architecture audit](docs/09-architecture-audit.md), [roadmap](docs/06-roadmap.md) and [acceptance tests](docs/05-tests.md). The modular design should be proven by tests before it is generalized.
 
 Contributions: [CONTRIBUTING.md](CONTRIBUTING.md). Sources and reading material: [docs/07-sources.md](docs/07-sources.md).

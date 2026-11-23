@@ -8,114 +8,114 @@
  viewBox="0.00 0.00 661.50 376.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 358)">
 <title>G</title>
-<polygon fill="white" stroke="transparent" points="-18,18 -18,-358 643.5,-358 643.5,18 -18,18"/>
+<polygon fill="#0c2236" stroke="transparent" points="-18,18 -18,-358 643.5,-358 643.5,18 -18,18"/>
 <!-- DS&#45;&gt;RUN -->
 <g id="edge1" class="edge">
 <title>DS&#45;&gt;RUN</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M98.06,-305.94C139.65,-293.17 199,-274.94 240.67,-262.15"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="241.48,-264.46 247.46,-260.06 240.05,-259.78 241.48,-264.46"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M98.06,-305.94C139.65,-293.17 199,-274.94 240.67,-262.15"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="241.48,-264.46 247.46,-260.06 240.05,-259.78 241.48,-264.46"/>
 </g>
 <!-- RUN&#45;&gt;CK -->
 <g id="edge5" class="edge">
 <title>RUN&#45;&gt;CK</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M290,-227.84C290,-218.12 290,-205.82 290,-195.15"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="292.45,-195.07 290,-188.07 287.55,-195.07 292.45,-195.07"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M290,-227.84C290,-218.12 290,-205.82 290,-195.15"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="292.45,-195.07 290,-188.07 287.55,-195.07 292.45,-195.07"/>
 </g>
 <!-- CODE&#45;&gt;RUN -->
 <g id="edge2" class="edge">
 <title>CODE&#45;&gt;RUN</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M226.25,-303.84C237.88,-293.47 252.82,-280.15 265.31,-269.02"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="267.26,-270.56 270.85,-264.07 264,-266.9 267.26,-270.56"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M226.25,-303.84C237.88,-293.47 252.82,-280.15 265.31,-269.02"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="267.26,-270.56 270.85,-264.07 264,-266.9 267.26,-270.56"/>
 </g>
 <!-- CFG&#45;&gt;RUN -->
 <g id="edge3" class="edge">
 <title>CFG&#45;&gt;RUN</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M354.52,-303.84C342.64,-293.38 327.36,-279.91 314.65,-268.71"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="316.25,-266.86 309.38,-264.07 313.01,-270.54 316.25,-266.86"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M354.52,-303.84C342.64,-293.38 327.36,-279.91 314.65,-268.71"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="316.25,-266.86 309.38,-264.07 313.01,-270.54 316.25,-266.86"/>
 </g>
 <!-- TOK&#45;&gt;RUN -->
 <g id="edge4" class="edge">
 <title>TOK&#45;&gt;RUN</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M484.64,-303.93C440.68,-291.07 381.07,-273.64 339.45,-261.46"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="340.08,-259.09 332.67,-259.48 338.7,-263.8 340.08,-259.09"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M484.64,-303.93C440.68,-291.07 381.07,-273.64 339.45,-261.46"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="340.08,-259.09 332.67,-259.48 338.7,-263.8 340.08,-259.09"/>
 </g>
 <!-- CK&#45;&gt;Q -->
 <g id="edge6" class="edge">
 <title>CK&#45;&gt;Q</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M266.34,-151.84C251.8,-141.28 233.03,-127.67 217.52,-116.42"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="218.63,-114.2 211.53,-112.07 215.76,-118.16 218.63,-114.2"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M266.34,-151.84C251.8,-141.28 233.03,-127.67 217.52,-116.42"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="218.63,-114.2 211.53,-112.07 215.76,-118.16 218.63,-114.2"/>
 </g>
 <!-- CK&#45;&gt;FT -->
 <g id="edge7" class="edge">
 <title>CK&#45;&gt;FT</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M313.66,-151.84C328.2,-141.28 346.97,-127.67 362.48,-116.42"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="364.24,-118.16 368.47,-112.07 361.37,-114.2 364.24,-118.16"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M313.66,-151.84C328.2,-141.28 346.97,-127.67 362.48,-116.42"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="364.24,-118.16 368.47,-112.07 361.37,-114.2 364.24,-118.16"/>
 </g>
 <!-- Q&#45;&gt;MET -->
 <g id="edge8" class="edge">
 <title>Q&#45;&gt;MET</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M211.66,-75.84C226.2,-65.28 244.97,-51.67 260.48,-40.42"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="262.24,-42.16 266.47,-36.07 259.37,-38.2 262.24,-42.16"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M211.66,-75.84C226.2,-65.28 244.97,-51.67 260.48,-40.42"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="262.24,-42.16 266.47,-36.07 259.37,-38.2 262.24,-42.16"/>
 </g>
 <!-- FT&#45;&gt;MET -->
 <g id="edge9" class="edge">
 <title>FT&#45;&gt;MET</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M368.34,-75.84C353.8,-65.28 335.03,-51.67 319.52,-40.42"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="320.63,-38.2 313.53,-36.07 317.76,-42.16 320.63,-38.2"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M368.34,-75.84C353.8,-65.28 335.03,-51.67 319.52,-40.42"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="320.63,-38.2 313.53,-36.07 317.76,-42.16 320.63,-38.2"/>
 </g>
 <!-- DS -->
 <g id="node1" class="node">
 <title>DS</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M86,-340C86,-340 12,-340 12,-340 6,-340 0,-334 0,-328 0,-328 0,-316 0,-316 0,-310 6,-304 12,-304 12,-304 86,-304 86,-304 92,-304 98,-310 98,-316 98,-316 98,-328 98,-328 98,-334 92,-340 86,-340"/>
-<text text-anchor="middle" x="49" y="-319.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Dataset hash</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M86,-340C86,-340 12,-340 12,-340 6,-340 0,-334 0,-328 0,-328 0,-316 0,-316 0,-310 6,-304 12,-304 12,-304 86,-304 86,-304 92,-304 98,-310 98,-316 98,-316 98,-328 98,-328 98,-334 92,-340 86,-340"/>
+<text text-anchor="middle" x="49" y="-319.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Dataset hash</text>
 </g>
 <!-- RUN -->
 <g id="node2" class="node">
 <title>RUN</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M320.5,-264C320.5,-264 259.5,-264 259.5,-264 253.5,-264 247.5,-258 247.5,-252 247.5,-252 247.5,-240 247.5,-240 247.5,-234 253.5,-228 259.5,-228 259.5,-228 320.5,-228 320.5,-228 326.5,-228 332.5,-234 332.5,-240 332.5,-240 332.5,-252 332.5,-252 332.5,-258 326.5,-264 320.5,-264"/>
-<text text-anchor="middle" x="290" y="-243.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Run record</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M320.5,-264C320.5,-264 259.5,-264 259.5,-264 253.5,-264 247.5,-258 247.5,-252 247.5,-252 247.5,-240 247.5,-240 247.5,-234 253.5,-228 259.5,-228 259.5,-228 320.5,-228 320.5,-228 326.5,-228 332.5,-234 332.5,-240 332.5,-240 332.5,-252 332.5,-252 332.5,-258 326.5,-264 320.5,-264"/>
+<text text-anchor="middle" x="290" y="-243.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Run record</text>
 </g>
 <!-- CODE -->
 <g id="node3" class="node">
 <title>CODE</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M275,-340C275,-340 139,-340 139,-340 133,-340 127,-334 127,-328 127,-328 127,-316 127,-316 127,-310 133,-304 139,-304 139,-304 275,-304 275,-304 281,-304 287,-310 287,-316 287,-316 287,-328 287,-328 287,-334 281,-340 275,-340"/>
-<text text-anchor="middle" x="207" y="-319.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Code + module versions</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M275,-340C275,-340 139,-340 139,-340 133,-340 127,-334 127,-328 127,-328 127,-316 127,-316 127,-310 133,-304 139,-304 139,-304 275,-304 275,-304 281,-304 287,-310 287,-316 287,-316 287,-328 287,-328 287,-334 281,-340 275,-340"/>
+<text text-anchor="middle" x="207" y="-319.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Code + module versions</text>
 </g>
 <!-- CFG -->
 <g id="node4" class="node">
 <title>CFG</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M419.5,-340C419.5,-340 328.5,-340 328.5,-340 322.5,-340 316.5,-334 316.5,-328 316.5,-328 316.5,-316 316.5,-316 316.5,-310 322.5,-304 328.5,-304 328.5,-304 419.5,-304 419.5,-304 425.5,-304 431.5,-310 431.5,-316 431.5,-316 431.5,-328 431.5,-328 431.5,-334 425.5,-340 419.5,-340"/>
-<text text-anchor="middle" x="374" y="-319.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Manifest + seed</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M419.5,-340C419.5,-340 328.5,-340 328.5,-340 322.5,-340 316.5,-334 316.5,-328 316.5,-328 316.5,-316 316.5,-316 316.5,-310 322.5,-304 328.5,-304 328.5,-304 419.5,-304 419.5,-304 425.5,-304 431.5,-310 431.5,-316 431.5,-316 431.5,-328 431.5,-328 431.5,-334 425.5,-340 419.5,-340"/>
+<text text-anchor="middle" x="374" y="-319.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Manifest + seed</text>
 </g>
 <!-- TOK -->
 <g id="node5" class="node">
 <title>TOK</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M613.5,-340C613.5,-340 472.5,-340 472.5,-340 466.5,-340 460.5,-334 460.5,-328 460.5,-328 460.5,-316 460.5,-316 460.5,-310 466.5,-304 472.5,-304 472.5,-304 613.5,-304 613.5,-304 619.5,-304 625.5,-310 625.5,-316 625.5,-316 625.5,-328 625.5,-328 625.5,-334 619.5,-340 613.5,-340"/>
-<text text-anchor="middle" x="543" y="-319.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Tokenizer / codec identity</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M613.5,-340C613.5,-340 472.5,-340 472.5,-340 466.5,-340 460.5,-334 460.5,-328 460.5,-328 460.5,-316 460.5,-316 460.5,-310 466.5,-304 472.5,-304 472.5,-304 613.5,-304 613.5,-304 619.5,-304 625.5,-310 625.5,-316 625.5,-316 625.5,-328 625.5,-328 625.5,-334 619.5,-340 613.5,-340"/>
+<text text-anchor="middle" x="543" y="-319.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Tokenizer / codec identity</text>
 </g>
 <!-- CK -->
 <g id="node6" class="node">
 <title>CK</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M371,-188C371,-188 209,-188 209,-188 203,-188 197,-182 197,-176 197,-176 197,-164 197,-164 197,-158 203,-152 209,-152 209,-152 371,-152 371,-152 377,-152 383,-158 383,-164 383,-164 383,-176 383,-176 383,-182 377,-188 371,-188"/>
-<text text-anchor="middle" x="290" y="-167.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Checkpoint + optimizer state</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M371,-188C371,-188 209,-188 209,-188 203,-188 197,-182 197,-176 197,-176 197,-164 197,-164 197,-158 203,-152 209,-152 209,-152 371,-152 371,-152 377,-152 383,-158 383,-164 383,-164 383,-176 383,-176 383,-182 377,-188 371,-188"/>
+<text text-anchor="middle" x="290" y="-167.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Checkpoint + optimizer state</text>
 </g>
 <!-- Q -->
 <g id="node7" class="node">
 <title>Q</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M280.5,-112C280.5,-112 95.5,-112 95.5,-112 89.5,-112 83.5,-106 83.5,-100 83.5,-100 83.5,-88 83.5,-88 83.5,-82 89.5,-76 95.5,-76 95.5,-76 280.5,-76 280.5,-76 286.5,-76 292.5,-82 292.5,-88 292.5,-88 292.5,-100 292.5,-100 292.5,-106 286.5,-112 280.5,-112"/>
-<text text-anchor="middle" x="188" y="-91.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Quantized deployment derivative</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M280.5,-112C280.5,-112 95.5,-112 95.5,-112 89.5,-112 83.5,-106 83.5,-100 83.5,-100 83.5,-88 83.5,-88 83.5,-82 89.5,-76 95.5,-76 95.5,-76 280.5,-76 280.5,-76 286.5,-76 292.5,-82 292.5,-88 292.5,-88 292.5,-100 292.5,-100 292.5,-106 286.5,-112 280.5,-112"/>
+<text text-anchor="middle" x="188" y="-91.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Quantized deployment derivative</text>
 </g>
 <!-- FT -->
 <g id="node8" class="node">
 <title>FT</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M450.5,-112C450.5,-112 333.5,-112 333.5,-112 327.5,-112 321.5,-106 321.5,-100 321.5,-100 321.5,-88 321.5,-88 321.5,-82 327.5,-76 333.5,-76 333.5,-76 450.5,-76 450.5,-76 456.5,-76 462.5,-82 462.5,-88 462.5,-88 462.5,-100 462.5,-100 462.5,-106 456.5,-112 450.5,-112"/>
-<text text-anchor="middle" x="392" y="-91.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Fine&#45;tuned derivative</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M450.5,-112C450.5,-112 333.5,-112 333.5,-112 327.5,-112 321.5,-106 321.5,-100 321.5,-100 321.5,-88 321.5,-88 321.5,-82 327.5,-76 333.5,-76 333.5,-76 450.5,-76 450.5,-76 456.5,-76 462.5,-82 462.5,-88 462.5,-88 462.5,-100 462.5,-100 462.5,-106 456.5,-112 450.5,-112"/>
+<text text-anchor="middle" x="392" y="-91.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Fine&#45;tuned derivative</text>
 </g>
 <!-- MET -->
 <g id="node9" class="node">
 <title>MET</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M370.5,-36C370.5,-36 209.5,-36 209.5,-36 203.5,-36 197.5,-30 197.5,-24 197.5,-24 197.5,-12 197.5,-12 197.5,-6 203.5,0 209.5,0 209.5,0 370.5,0 370.5,0 376.5,0 382.5,-6 382.5,-12 382.5,-12 382.5,-24 382.5,-24 382.5,-30 376.5,-36 370.5,-36"/>
-<text text-anchor="middle" x="290" y="-15.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Measured evaluation metrics</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M370.5,-36C370.5,-36 209.5,-36 209.5,-36 203.5,-36 197.5,-30 197.5,-24 197.5,-24 197.5,-12 197.5,-12 197.5,-6 203.5,0 209.5,0 209.5,0 370.5,0 370.5,0 376.5,0 382.5,-6 382.5,-12 382.5,-12 382.5,-24 382.5,-24 382.5,-30 376.5,-36 370.5,-36"/>
+<text text-anchor="middle" x="290" y="-15.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Measured evaluation metrics</text>
 </g>
 </g>
 </svg>

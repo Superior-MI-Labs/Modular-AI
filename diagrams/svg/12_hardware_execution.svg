@@ -8,85 +8,85 @@
  viewBox="0.00 0.00 318.50 452.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 434)">
 <title>G</title>
-<polygon fill="white" stroke="transparent" points="-18,18 -18,-434 300.5,-434 300.5,18 -18,18"/>
+<polygon fill="#0c2236" stroke="transparent" points="-18,18 -18,-434 300.5,-434 300.5,18 -18,18"/>
 <!-- SSD&#45;&gt;RAM -->
 <g id="edge1" class="edge">
 <title>SSD&#45;&gt;RAM</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M193.5,-379.84C193.5,-370.12 193.5,-357.82 193.5,-347.15"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="195.95,-347.07 193.5,-340.07 191.05,-347.07 195.95,-347.07"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M193.5,-379.84C193.5,-370.12 193.5,-357.82 193.5,-347.15"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="195.95,-347.07 193.5,-340.07 191.05,-347.07 195.95,-347.07"/>
 </g>
 <!-- RAM&#45;&gt;CPU -->
 <g id="edge2" class="edge">
 <title>RAM&#45;&gt;CPU</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M175.18,-303.84C164.11,-293.47 149.89,-280.15 138,-269.02"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="139.51,-267.07 132.72,-264.07 136.16,-270.64 139.51,-267.07"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M175.18,-303.84C164.11,-293.47 149.89,-280.15 138,-269.02"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="139.51,-267.07 132.72,-264.07 136.16,-270.64 139.51,-267.07"/>
 </g>
 <!-- RAM&#45;&gt;VRAM -->
 <g id="edge3" class="edge">
 <title>RAM&#45;&gt;VRAM</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M214.57,-303.84C225.45,-293.57 237.66,-279.52 243.5,-264 272.94,-185.8 283.41,-149.41 243.5,-76 235.05,-60.47 220.35,-48.52 205.35,-39.67"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="206.23,-37.35 198.93,-36.06 203.83,-41.62 206.23,-37.35"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M214.57,-303.84C225.45,-293.57 237.66,-279.52 243.5,-264 272.94,-185.8 283.41,-149.41 243.5,-76 235.05,-60.47 220.35,-48.52 205.35,-39.67"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="206.23,-37.35 198.93,-36.06 203.83,-41.62 206.23,-37.35"/>
 </g>
 <!-- CPU&#45;&gt;GPU -->
 <g id="edge4" class="edge">
 <title>CPU&#45;&gt;GPU</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M114.5,-227.84C114.5,-218.12 114.5,-205.82 114.5,-195.15"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="116.95,-195.07 114.5,-188.07 112.05,-195.07 116.95,-195.07"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M114.5,-227.84C114.5,-218.12 114.5,-205.82 114.5,-195.15"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="116.95,-195.07 114.5,-188.07 112.05,-195.07 116.95,-195.07"/>
 </g>
 <!-- VRAM&#45;&gt;GPU -->
 <g id="edge5" class="edge">
 <title>VRAM&#45;&gt;GPU</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M104.68,-39.79C89.66,-48.61 74.98,-60.51 66.5,-76 53.43,-99.9 72.12,-127.69 89.87,-146.63"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="106.21,-41.74 111.13,-36.19 103.82,-37.46 106.21,-41.74"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="88.18,-148.42 94.82,-151.73 91.7,-145 88.18,-148.42"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M104.68,-39.79C89.66,-48.61 74.98,-60.51 66.5,-76 53.43,-99.9 72.12,-127.69 89.87,-146.63"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="106.21,-41.74 111.13,-36.19 103.82,-37.46 106.21,-41.74"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="88.18,-148.42 94.82,-151.73 91.7,-145 88.18,-148.42"/>
 </g>
 <!-- GPU&#45;&gt;OUTPUT -->
 <g id="edge6" class="edge">
 <title>GPU&#45;&gt;OUTPUT</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M124.01,-151.84C129.55,-141.84 136.6,-129.11 142.63,-118.23"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="144.79,-119.38 146.04,-112.07 140.51,-117.01 144.79,-119.38"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M124.01,-151.84C129.55,-141.84 136.6,-129.11 142.63,-118.23"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="144.79,-119.38 146.04,-112.07 140.51,-117.01 144.79,-119.38"/>
 </g>
 <!-- OUTPUT&#45;&gt;VRAM -->
 <g id="edge7" class="edge">
 <title>OUTPUT&#45;&gt;VRAM</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" stroke-dasharray="5,2" d="M155.5,-75.84C155.5,-66.12 155.5,-53.82 155.5,-43.15"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="157.95,-43.07 155.5,-36.07 153.05,-43.07 157.95,-43.07"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" stroke-dasharray="5,2" d="M155.5,-75.84C155.5,-66.12 155.5,-53.82 155.5,-43.15"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="157.95,-43.07 155.5,-36.07 153.05,-43.07 157.95,-43.07"/>
 </g>
 <!-- SSD -->
 <g id="node1" class="node">
 <title>SSD</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M270.5,-416C270.5,-416 116.5,-416 116.5,-416 110.5,-416 104.5,-410 104.5,-404 104.5,-404 104.5,-392 104.5,-392 104.5,-386 110.5,-380 116.5,-380 116.5,-380 270.5,-380 270.5,-380 276.5,-380 282.5,-386 282.5,-392 282.5,-392 282.5,-404 282.5,-404 282.5,-410 276.5,-416 270.5,-416"/>
-<text text-anchor="middle" x="193.5" y="-395.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">SSD: datasets / checkpoints</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M270.5,-416C270.5,-416 116.5,-416 116.5,-416 110.5,-416 104.5,-410 104.5,-404 104.5,-404 104.5,-392 104.5,-392 104.5,-386 110.5,-380 116.5,-380 116.5,-380 270.5,-380 270.5,-380 276.5,-380 282.5,-386 282.5,-392 282.5,-392 282.5,-404 282.5,-404 282.5,-410 276.5,-416 270.5,-416"/>
+<text text-anchor="middle" x="193.5" y="-395.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">SSD: datasets / checkpoints</text>
 </g>
 <!-- RAM -->
 <g id="node2" class="node">
 <title>RAM</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M256.5,-340C256.5,-340 130.5,-340 130.5,-340 124.5,-340 118.5,-334 118.5,-328 118.5,-328 118.5,-316 118.5,-316 118.5,-310 124.5,-304 130.5,-304 130.5,-304 256.5,-304 256.5,-304 262.5,-304 268.5,-310 268.5,-316 268.5,-316 268.5,-328 268.5,-328 268.5,-334 262.5,-340 256.5,-340"/>
-<text text-anchor="middle" x="193.5" y="-319.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">RAM: batches / buffers</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M256.5,-340C256.5,-340 130.5,-340 130.5,-340 124.5,-340 118.5,-334 118.5,-328 118.5,-328 118.5,-316 118.5,-316 118.5,-310 124.5,-304 130.5,-304 130.5,-304 256.5,-304 256.5,-304 262.5,-304 268.5,-310 268.5,-316 268.5,-316 268.5,-328 268.5,-328 268.5,-334 262.5,-340 256.5,-340"/>
+<text text-anchor="middle" x="193.5" y="-319.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">RAM: batches / buffers</text>
 </g>
 <!-- CPU -->
 <g id="node3" class="node">
 <title>CPU</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M217,-264C217,-264 12,-264 12,-264 6,-264 0,-258 0,-252 0,-252 0,-240 0,-240 0,-234 6,-228 12,-228 12,-228 217,-228 217,-228 223,-228 229,-234 229,-240 229,-240 229,-252 229,-252 229,-258 223,-264 217,-264"/>
-<text text-anchor="middle" x="114.5" y="-243.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">CPU: preprocessing / host scheduling</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M217,-264C217,-264 12,-264 12,-264 6,-264 0,-258 0,-252 0,-252 0,-240 0,-240 0,-234 6,-228 12,-228 12,-228 217,-228 217,-228 223,-228 229,-234 229,-240 229,-240 229,-252 229,-252 229,-258 223,-264 217,-264"/>
+<text text-anchor="middle" x="114.5" y="-243.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">CPU: preprocessing / host scheduling</text>
 </g>
 <!-- VRAM -->
 <g id="node4" class="node">
 <title>VRAM</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M246.5,-36C246.5,-36 64.5,-36 64.5,-36 58.5,-36 52.5,-30 52.5,-24 52.5,-24 52.5,-12 52.5,-12 52.5,-6 58.5,0 64.5,0 64.5,0 246.5,0 246.5,0 252.5,0 258.5,-6 258.5,-12 258.5,-12 258.5,-24 258.5,-24 258.5,-30 252.5,-36 246.5,-36"/>
-<text text-anchor="middle" x="155.5" y="-15.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">GPU VRAM: weights / activations</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M246.5,-36C246.5,-36 64.5,-36 64.5,-36 58.5,-36 52.5,-30 52.5,-24 52.5,-24 52.5,-12 52.5,-12 52.5,-6 58.5,0 64.5,0 64.5,0 246.5,0 246.5,0 252.5,0 258.5,-6 258.5,-12 258.5,-12 258.5,-24 258.5,-24 258.5,-30 252.5,-36 246.5,-36"/>
+<text text-anchor="middle" x="155.5" y="-15.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">GPU VRAM: weights / activations</text>
 </g>
 <!-- GPU -->
 <g id="node5" class="node">
 <title>GPU</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M205,-188C205,-188 24,-188 24,-188 18,-188 12,-182 12,-176 12,-176 12,-164 12,-164 12,-158 18,-152 24,-152 24,-152 205,-152 205,-152 211,-152 217,-158 217,-164 217,-164 217,-176 217,-176 217,-182 211,-188 205,-188"/>
-<text text-anchor="middle" x="114.5" y="-167.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">GPU: kernels / matrix operations</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M205,-188C205,-188 24,-188 24,-188 18,-188 12,-182 12,-176 12,-176 12,-164 12,-164 12,-158 18,-152 24,-152 24,-152 205,-152 205,-152 211,-152 217,-158 217,-164 217,-164 217,-176 217,-176 217,-182 211,-188 205,-188"/>
+<text text-anchor="middle" x="114.5" y="-167.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">GPU: kernels / matrix operations</text>
 </g>
 <!-- OUTPUT -->
 <g id="node6" class="node">
 <title>OUTPUT</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M217.5,-112C217.5,-112 93.5,-112 93.5,-112 87.5,-112 81.5,-106 81.5,-100 81.5,-100 81.5,-88 81.5,-88 81.5,-82 87.5,-76 93.5,-76 93.5,-76 217.5,-76 217.5,-76 223.5,-76 229.5,-82 229.5,-88 229.5,-88 229.5,-100 229.5,-100 229.5,-106 223.5,-112 217.5,-112"/>
-<text text-anchor="middle" x="155.5" y="-91.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Predictions / gradients</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M217.5,-112C217.5,-112 93.5,-112 93.5,-112 87.5,-112 81.5,-106 81.5,-100 81.5,-100 81.5,-88 81.5,-88 81.5,-82 87.5,-76 93.5,-76 93.5,-76 217.5,-76 217.5,-76 223.5,-76 229.5,-82 229.5,-88 229.5,-88 229.5,-100 229.5,-100 229.5,-106 223.5,-112 217.5,-112"/>
+<text text-anchor="middle" x="155.5" y="-91.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Predictions / gradients</text>
 </g>
 </g>
 </svg>

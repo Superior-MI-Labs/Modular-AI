@@ -10,3 +10,5 @@ This is currently an architecture and visual-education repository, not a complet
 - Prefer adjusting an existing module or workflow to adding new registries, plugins, adapters or compatibility shims.
 
 The project is experimental. Claims about emergent cognition, empathy or intelligence require separate empirical evidence.
+
+Before claiming a module is interchangeable, add a positive compatibility test, a negative test for mismatched representation fingerprints, and numerical/quality tests when actual weights exist. For the full core freeze criteria, see [the core completion plan](docs/08-core-freeze-plan.md).

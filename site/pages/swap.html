@@ -1,0 +1,24 @@
+<section class="page-top wrap">
+  <div class="eyebrow">INTERACTIVE RESEARCH / REFERENCE CONTRACTS</div>
+  <h1>Module compatibility lab.</h1>
+  <p class="lead">Select a system and change its components. The compatibility results come from the same Python checker used by our reference manifests and tests, not a separate set of browser rules.</p>
+  <p class="lab-disclaimer">Design-time simulation only. No neural model is loaded, executed, trained, or proven numerically equivalent.</p>
+</section>
+<section class="wrap lab-layout" aria-label="Module compatibility demonstration">
+  <div class="lab-panel">
+    <label class="lab-label" for="lab-workflow">System family</label>
+    <select id="lab-workflow" class="lab-select" aria-describedby="lab-instructions"></select>
+    <p id="lab-instructions" class="lab-hint">Select an architecture and choose its components.</p>
+    <div id="lab-slots" class="lab-slots"></div>
+    <button id="lab-reset" type="button" class="button secondary lab-reset">Restore reference setup</button>
+  </div>
+  <div class="lab-panel lab-outcome" aria-live="polite" aria-atomic="false">
+    <div class="eyebrow">PRECOMPUTED VALIDATION RESULT</div>
+    <h2 id="lab-verdict">Loading reference contracts…</h2>
+    <p class="lab-summary" id="lab-summary"></p>
+    <div id="lab-diagnostics" class="lab-diagnostics"></div>
+    <h3>Checked port connections</h3>
+    <div id="lab-connections" class="lab-connections"></div>
+  </div>
+</section>
+<section class="section wrap"><div class="compare-grid"><article class="compare-card"><span class="compare-kicker">IMPORTANT DISTINCTION</span><h3>Matching ports are not enough</h3><p>A tokenizer, model checkpoint and output head can share the same tensor shape but disagree about vocabulary identity. The validator also checks declared artifact fingerprints.</p></article><article class="compare-card"><span class="compare-kicker">WHAT COMES NEXT</span><h3>Prove actual execution</h3><p>Once core execution exists, this interface can display real model loading, run diagnostics, evaluation results, and artifact lineage using the same validated experiment manifest.</p></article></div><div class="links-row"><a href="core.html">Read the core completion contract ↗</a><a href="https://github.com/Superior-MI-Labs/Modular-AI/blob/main/registry/reference_modules.json">Inspect reference registry ↗</a></div></section>

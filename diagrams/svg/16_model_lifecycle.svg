@@ -8,146 +8,146 @@
  viewBox="0.00 0.00 356.00 875.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 857)">
 <title>G</title>
-<polygon fill="white" stroke="transparent" points="-18,18 -18,-857 338,-857 338,18 -18,18"/>
+<polygon fill="#0c2236" stroke="transparent" points="-18,18 -18,-857 338,-857 338,18 -18,18"/>
 <!-- DATA&#45;&gt;PRE -->
 <g id="edge1" class="edge">
 <title>DATA&#45;&gt;PRE</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M174,-802.98C174,-793.08 174,-780.43 174,-769.47"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="176.45,-769.21 174,-762.21 171.55,-769.21 176.45,-769.21"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M174,-802.98C174,-793.08 174,-780.43 174,-769.47"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="176.45,-769.21 174,-762.21 171.55,-769.21 176.45,-769.21"/>
 </g>
 <!-- PRE&#45;&gt;TRAIN -->
 <g id="edge2" class="edge">
 <title>PRE&#45;&gt;TRAIN</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M174,-725.98C174,-716.08 174,-703.43 174,-692.47"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="176.45,-692.21 174,-685.21 171.55,-692.21 176.45,-692.21"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M174,-725.98C174,-716.08 174,-703.43 174,-692.47"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="176.45,-692.21 174,-685.21 171.55,-692.21 176.45,-692.21"/>
 </g>
 <!-- TRAIN&#45;&gt;CK -->
 <g id="edge3" class="edge">
 <title>TRAIN&#45;&gt;CK</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M174,-648.98C174,-639.08 174,-626.43 174,-615.47"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="176.45,-615.21 174,-608.21 171.55,-615.21 176.45,-615.21"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M174,-648.98C174,-639.08 174,-626.43 174,-615.47"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="176.45,-615.21 174,-608.21 171.55,-615.21 176.45,-615.21"/>
 </g>
 <!-- CK&#45;&gt;EVAL -->
 <g id="edge4" class="edge">
 <title>CK&#45;&gt;EVAL</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M174,-571.98C174,-562.08 174,-549.43 174,-538.47"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="176.45,-538.21 174,-531.21 171.55,-538.21 176.45,-538.21"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M174,-571.98C174,-562.08 174,-549.43 174,-538.47"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="176.45,-538.21 174,-531.21 171.55,-538.21 176.45,-538.21"/>
 </g>
 <!-- EVAL&#45;&gt;GATE -->
 <g id="edge5" class="edge">
 <title>EVAL&#45;&gt;GATE</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M174,-494.81C174,-485.22 174,-472.88 174,-461.26"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="176.45,-461.15 174,-454.15 171.55,-461.15 176.45,-461.15"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M174,-494.81C174,-485.22 174,-472.88 174,-461.26"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="176.45,-461.15 174,-454.15 171.55,-461.15 176.45,-461.15"/>
 </g>
 <!-- GATE&#45;&gt;OPT -->
 <g id="edge6" class="edge">
 <title>GATE&#45;&gt;OPT</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M152.63,-398.28C139.65,-383.27 123.21,-364.26 110.58,-349.64"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="112.19,-347.77 105.76,-344.07 108.49,-350.97 112.19,-347.77"/>
-<text text-anchor="middle" x="141" y="-366.8" font-family="DejaVu Sans" font-size="9.00" fill="#496679">Pass</text>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M152.63,-398.28C139.65,-383.27 123.21,-364.26 110.58,-349.64"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="112.19,-347.77 105.76,-344.07 108.49,-350.97 112.19,-347.77"/>
+<text text-anchor="middle" x="141" y="-366.8" font-family="DejaVu Sans" font-size="9.00" fill="#c7e5f0">Pass</text>
 </g>
 <!-- GATE&#45;&gt;REVISE -->
 <g id="edge7" class="edge">
 <title>GATE&#45;&gt;REVISE</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M195.12,-398.28C207.94,-383.27 224.18,-364.26 236.66,-349.64"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="238.73,-350.99 241.42,-344.07 235.01,-347.81 238.73,-350.99"/>
-<text text-anchor="middle" x="229.5" y="-366.8" font-family="DejaVu Sans" font-size="9.00" fill="#496679">Fail</text>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M195.12,-398.28C207.94,-383.27 224.18,-364.26 236.66,-349.64"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="238.73,-350.99 241.42,-344.07 235.01,-347.81 238.73,-350.99"/>
+<text text-anchor="middle" x="229.5" y="-366.8" font-family="DejaVu Sans" font-size="9.00" fill="#c7e5f0">Fail</text>
 </g>
 <!-- OPT&#45;&gt;QT -->
 <g id="edge8" class="edge">
 <title>OPT&#45;&gt;QT</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M91,-307.98C91,-298.08 91,-285.43 91,-274.47"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="93.45,-274.21 91,-267.21 88.55,-274.21 93.45,-274.21"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M91,-307.98C91,-298.08 91,-285.43 91,-274.47"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="93.45,-274.21 91,-267.21 88.55,-274.21 93.45,-274.21"/>
 </g>
 <!-- QT&#45;&gt;REVAL -->
 <g id="edge9" class="edge">
 <title>QT&#45;&gt;REVAL</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M91,-230.98C91,-221.08 91,-208.43 91,-197.47"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="93.45,-197.21 91,-190.21 88.55,-197.21 93.45,-197.21"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M91,-230.98C91,-221.08 91,-208.43 91,-197.47"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="93.45,-197.21 91,-190.21 88.55,-197.21 93.45,-197.21"/>
 </g>
 <!-- REVAL&#45;&gt;DEP -->
 <g id="edge10" class="edge">
 <title>REVAL&#45;&gt;DEP</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M91,-153.98C91,-144.08 91,-131.43 91,-120.47"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="93.45,-120.21 91,-113.21 88.55,-120.21 93.45,-120.21"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M91,-153.98C91,-144.08 91,-131.43 91,-120.47"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="93.45,-120.21 91,-113.21 88.55,-120.21 93.45,-120.21"/>
 </g>
 <!-- DEP&#45;&gt;MON -->
 <g id="edge11" class="edge">
 <title>DEP&#45;&gt;MON</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M91,-76.98C91,-67.08 91,-54.43 91,-43.47"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="93.45,-43.21 91,-36.21 88.55,-43.21 93.45,-43.21"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M91,-76.98C91,-67.08 91,-54.43 91,-43.47"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="93.45,-43.21 91,-36.21 88.55,-43.21 93.45,-43.21"/>
 </g>
 <!-- DATA -->
 <g id="node1" class="node">
 <title>DATA</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M224,-839C224,-839 124,-839 124,-839 118,-839 112,-833 112,-827 112,-827 112,-815 112,-815 112,-809 118,-803 124,-803 124,-803 224,-803 224,-803 230,-803 236,-809 236,-815 236,-815 236,-827 236,-827 236,-833 230,-839 224,-839"/>
-<text text-anchor="middle" x="174" y="-818.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Versioned dataset</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M224,-839C224,-839 124,-839 124,-839 118,-839 112,-833 112,-827 112,-827 112,-815 112,-815 112,-809 118,-803 124,-803 124,-803 224,-803 224,-803 230,-803 236,-809 236,-815 236,-815 236,-827 236,-827 236,-833 230,-839 224,-839"/>
+<text text-anchor="middle" x="174" y="-818.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Versioned dataset</text>
 </g>
 <!-- PRE -->
 <g id="node2" class="node">
 <title>PRE</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M222,-762C222,-762 126,-762 126,-762 120,-762 114,-756 114,-750 114,-750 114,-738 114,-738 114,-732 120,-726 126,-726 126,-726 222,-726 222,-726 228,-726 234,-732 234,-738 234,-738 234,-750 234,-750 234,-756 228,-762 222,-762"/>
-<text text-anchor="middle" x="174" y="-741.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Preprocess / split</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M222,-762C222,-762 126,-762 126,-762 120,-762 114,-756 114,-750 114,-750 114,-738 114,-738 114,-732 120,-726 126,-726 126,-726 222,-726 222,-726 228,-726 234,-732 234,-738 234,-738 234,-750 234,-750 234,-756 228,-762 222,-762"/>
+<text text-anchor="middle" x="174" y="-741.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Preprocess / split</text>
 </g>
 <!-- TRAIN -->
 <g id="node3" class="node">
 <title>TRAIN</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M221,-685C221,-685 127,-685 127,-685 121,-685 115,-679 115,-673 115,-673 115,-661 115,-661 115,-655 121,-649 127,-649 127,-649 221,-649 221,-649 227,-649 233,-655 233,-661 233,-661 233,-673 233,-673 233,-679 227,-685 221,-685"/>
-<text text-anchor="middle" x="174" y="-664.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Train or fine&#45;tune</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M221,-685C221,-685 127,-685 127,-685 121,-685 115,-679 115,-673 115,-673 115,-661 115,-661 115,-655 121,-649 127,-649 127,-649 221,-649 221,-649 227,-649 233,-655 233,-661 233,-661 233,-673 233,-673 233,-679 227,-685 221,-685"/>
+<text text-anchor="middle" x="174" y="-664.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Train or fine&#45;tune</text>
 </g>
 <!-- CK -->
 <g id="node4" class="node">
 <title>CK</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M242,-608C242,-608 106,-608 106,-608 100,-608 94,-602 94,-596 94,-596 94,-584 94,-584 94,-578 100,-572 106,-572 106,-572 242,-572 242,-572 248,-572 254,-578 254,-584 254,-584 254,-596 254,-596 254,-602 248,-608 242,-608"/>
-<text text-anchor="middle" x="174" y="-587.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Full precision checkpoint</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M242,-608C242,-608 106,-608 106,-608 100,-608 94,-602 94,-596 94,-596 94,-584 94,-584 94,-578 100,-572 106,-572 106,-572 242,-572 242,-572 248,-572 254,-578 254,-584 254,-584 254,-596 254,-596 254,-602 248,-608 242,-608"/>
+<text text-anchor="middle" x="174" y="-587.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Full precision checkpoint</text>
 </g>
 <!-- EVAL -->
 <g id="node5" class="node">
 <title>EVAL</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M226.5,-531C226.5,-531 121.5,-531 121.5,-531 115.5,-531 109.5,-525 109.5,-519 109.5,-519 109.5,-507 109.5,-507 109.5,-501 115.5,-495 121.5,-495 121.5,-495 226.5,-495 226.5,-495 232.5,-495 238.5,-501 238.5,-507 238.5,-507 238.5,-519 238.5,-519 238.5,-525 232.5,-531 226.5,-531"/>
-<text text-anchor="middle" x="174" y="-510.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Holdout evaluation</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M226.5,-531C226.5,-531 121.5,-531 121.5,-531 115.5,-531 109.5,-525 109.5,-519 109.5,-519 109.5,-507 109.5,-507 109.5,-501 115.5,-495 121.5,-495 121.5,-495 226.5,-495 226.5,-495 232.5,-495 238.5,-501 238.5,-507 238.5,-507 238.5,-519 238.5,-519 238.5,-525 232.5,-531 226.5,-531"/>
+<text text-anchor="middle" x="174" y="-510.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Holdout evaluation</text>
 </g>
 <!-- GATE -->
 <g id="node6" class="node">
 <title>GATE</title>
-<path fill="#e5f1ee" stroke="#aabbc9" stroke-width="1.2" d="M162.25,-451.57C162.25,-451.57 40.75,-426.43 40.75,-426.43 34.88,-425.22 34.88,-422.78 40.75,-421.57 40.75,-421.57 162.25,-396.43 162.25,-396.43 168.12,-395.22 179.88,-395.22 185.75,-396.43 185.75,-396.43 307.25,-421.57 307.25,-421.57 313.12,-422.78 313.12,-425.22 307.25,-426.43 307.25,-426.43 185.75,-451.57 185.75,-451.57 179.88,-452.78 168.12,-452.78 162.25,-451.57"/>
-<text text-anchor="middle" x="174" y="-421.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Quality / safety gates</text>
+<path fill="#164c50" stroke="#4a7790" stroke-width="1.2" d="M162.25,-451.57C162.25,-451.57 40.75,-426.43 40.75,-426.43 34.88,-425.22 34.88,-422.78 40.75,-421.57 40.75,-421.57 162.25,-396.43 162.25,-396.43 168.12,-395.22 179.88,-395.22 185.75,-396.43 185.75,-396.43 307.25,-421.57 307.25,-421.57 313.12,-422.78 313.12,-425.22 307.25,-426.43 307.25,-426.43 185.75,-451.57 185.75,-451.57 179.88,-452.78 168.12,-452.78 162.25,-451.57"/>
+<text text-anchor="middle" x="174" y="-421.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Quality / safety gates</text>
 </g>
 <!-- OPT -->
 <g id="node7" class="node">
 <title>OPT</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M150.5,-344C150.5,-344 31.5,-344 31.5,-344 25.5,-344 19.5,-338 19.5,-332 19.5,-332 19.5,-320 19.5,-320 19.5,-314 25.5,-308 31.5,-308 31.5,-308 150.5,-308 150.5,-308 156.5,-308 162.5,-314 162.5,-320 162.5,-320 162.5,-332 162.5,-332 162.5,-338 156.5,-344 150.5,-344"/>
-<text text-anchor="middle" x="91" y="-323.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Optional optimization</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M150.5,-344C150.5,-344 31.5,-344 31.5,-344 25.5,-344 19.5,-338 19.5,-332 19.5,-332 19.5,-320 19.5,-320 19.5,-314 25.5,-308 31.5,-308 31.5,-308 150.5,-308 150.5,-308 156.5,-308 162.5,-314 162.5,-320 162.5,-320 162.5,-332 162.5,-332 162.5,-338 156.5,-344 150.5,-344"/>
+<text text-anchor="middle" x="91" y="-323.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Optional optimization</text>
 </g>
 <!-- REVISE -->
 <g id="node8" class="node">
 <title>REVISE</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M308,-344C308,-344 204,-344 204,-344 198,-344 192,-338 192,-332 192,-332 192,-320 192,-320 192,-314 198,-308 204,-308 204,-308 308,-308 308,-308 314,-308 320,-314 320,-320 320,-320 320,-332 320,-332 320,-338 314,-344 308,-344"/>
-<text text-anchor="middle" x="256" y="-323.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Revise experiment</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M308,-344C308,-344 204,-344 204,-344 198,-344 192,-338 192,-332 192,-332 192,-320 192,-320 192,-314 198,-308 204,-308 204,-308 308,-308 308,-308 314,-308 320,-314 320,-320 320,-320 320,-332 320,-332 320,-338 314,-344 308,-344"/>
+<text text-anchor="middle" x="256" y="-323.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Revise experiment</text>
 </g>
 <!-- QT -->
 <g id="node9" class="node">
 <title>QT</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M164.5,-267C164.5,-267 17.5,-267 17.5,-267 11.5,-267 5.5,-261 5.5,-255 5.5,-255 5.5,-243 5.5,-243 5.5,-237 11.5,-231 17.5,-231 17.5,-231 164.5,-231 164.5,-231 170.5,-231 176.5,-237 176.5,-243 176.5,-243 176.5,-255 176.5,-255 176.5,-261 170.5,-267 164.5,-267"/>
-<text text-anchor="middle" x="91" y="-246.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Quantize / prune / compile</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M164.5,-267C164.5,-267 17.5,-267 17.5,-267 11.5,-267 5.5,-261 5.5,-255 5.5,-255 5.5,-243 5.5,-243 5.5,-237 11.5,-231 17.5,-231 17.5,-231 164.5,-231 164.5,-231 170.5,-231 176.5,-237 176.5,-243 176.5,-243 176.5,-255 176.5,-255 176.5,-261 170.5,-267 164.5,-267"/>
+<text text-anchor="middle" x="91" y="-246.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Quantize / prune / compile</text>
 </g>
 <!-- REVAL -->
 <g id="node10" class="node">
 <title>REVAL</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M153,-190C153,-190 29,-190 29,-190 23,-190 17,-184 17,-178 17,-178 17,-166 17,-166 17,-160 23,-154 29,-154 29,-154 153,-154 153,-154 159,-154 165,-160 165,-166 165,-166 165,-178 165,-178 165,-184 159,-190 153,-190"/>
-<text text-anchor="middle" x="91" y="-169.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Re&#45;evaluate candidate</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M153,-190C153,-190 29,-190 29,-190 23,-190 17,-184 17,-178 17,-178 17,-166 17,-166 17,-160 23,-154 29,-154 29,-154 153,-154 153,-154 159,-154 165,-160 165,-166 165,-166 165,-178 165,-178 165,-184 159,-190 153,-190"/>
+<text text-anchor="middle" x="91" y="-169.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Re&#45;evaluate candidate</text>
 </g>
 <!-- DEP -->
 <g id="node11" class="node">
 <title>DEP</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M170,-113C170,-113 12,-113 12,-113 6,-113 0,-107 0,-101 0,-101 0,-89 0,-89 0,-83 6,-77 12,-77 12,-77 170,-77 170,-77 176,-77 182,-83 182,-89 182,-89 182,-101 182,-101 182,-107 176,-113 170,-113"/>
-<text text-anchor="middle" x="91" y="-92.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Package deployment artifact</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M170,-113C170,-113 12,-113 12,-113 6,-113 0,-107 0,-101 0,-101 0,-89 0,-89 0,-83 6,-77 12,-77 12,-77 170,-77 170,-77 176,-77 182,-83 182,-89 182,-89 182,-101 182,-101 182,-107 176,-113 170,-113"/>
+<text text-anchor="middle" x="91" y="-92.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Package deployment artifact</text>
 </g>
 <!-- MON -->
 <g id="node12" class="node">
 <title>MON</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M142,-36C142,-36 40,-36 40,-36 34,-36 28,-30 28,-24 28,-24 28,-12 28,-12 28,-6 34,0 40,0 40,0 142,0 142,0 148,0 154,-6 154,-12 154,-12 154,-24 154,-24 154,-30 148,-36 142,-36"/>
-<text text-anchor="middle" x="91" y="-15.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Monitor / compare</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M142,-36C142,-36 40,-36 40,-36 34,-36 28,-30 28,-24 28,-24 28,-12 28,-12 28,-6 34,0 40,0 40,0 142,0 142,0 148,0 154,-6 154,-12 154,-12 154,-24 154,-24 154,-30 148,-36 142,-36"/>
+<text text-anchor="middle" x="91" y="-15.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Monitor / compare</text>
 </g>
 </g>
 </svg>

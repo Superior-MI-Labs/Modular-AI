@@ -1,6 +1,6 @@
 {
   "registry_schema_version": 1,
-  "note": "Architecture-only illustrative registry; IDs are not actual installed modules.",
+  "note": "Architecture-only registry: module IDs, ports, and artifact fingerprints are illustrative, not installed AI implementations.",
   "modules": {
     "ref.workflow.episode@1": {
       "category": "workflow",
@@ -12,6 +12,37 @@
       "control": "episode-loop",
       "optional_slots": [
         "state_encoder"
+      ],
+      "slot_categories": {
+        "environment": "environment",
+        "policy": "policy",
+        "evaluator": "evaluator",
+        "state_encoder": "state_encoder"
+      },
+      "links": [
+        {
+          "from": "environment.observation",
+          "to": "policy.observation",
+          "when_absent": "state_encoder"
+        },
+        {
+          "from": "environment.observation",
+          "to": "state_encoder.observation",
+          "when_present": "state_encoder"
+        },
+        {
+          "from": "state_encoder.state",
+          "to": "policy.observation",
+          "when_present": "state_encoder"
+        },
+        {
+          "from": "policy.action",
+          "to": "environment.action"
+        },
+        {
+          "from": "environment.episode",
+          "to": "evaluator.result"
+        }
       ]
     },
     "ref.workflow.autoregressive@1": {
@@ -22,7 +53,31 @@
         "sampler",
         "decoder"
       ],
-      "control": "token-loop"
+      "control": "token-loop",
+      "slot_categories": {
+        "tokenizer": "tokenizer",
+        "predictor": "predictor",
+        "sampler": "sampler",
+        "decoder": "decoder"
+      },
+      "links": [
+        {
+          "from": "tokenizer.token_ids",
+          "to": "predictor.token_ids"
+        },
+        {
+          "from": "predictor.logits",
+          "to": "sampler.logits"
+        },
+        {
+          "from": "sampler.token_ids",
+          "to": "decoder.token_ids"
+        },
+        {
+          "from": "sampler.token_ids",
+          "to": "predictor.token_ids"
+        }
+      ]
     },
     "ref.workflow.iterative-image@1": {
       "category": "workflow",
@@ -32,7 +87,31 @@
         "scheduler",
         "codec"
       ],
-      "control": "denoise-loop"
+      "control": "denoise-loop",
+      "slot_categories": {
+        "conditioner": "conditioner",
+        "denoiser": "denoiser",
+        "scheduler": "scheduler",
+        "codec": "codec"
+      },
+      "links": [
+        {
+          "from": "conditioner.conditioning",
+          "to": "denoiser.conditioning"
+        },
+        {
+          "from": "denoiser.estimate",
+          "to": "scheduler.prediction"
+        },
+        {
+          "from": "scheduler.latent",
+          "to": "denoiser.latent"
+        },
+        {
+          "from": "scheduler.latent",
+          "to": "codec.latent"
+        }
+      ]
     },
     "ref.workflow.iterative-video@1": {
       "category": "workflow",
@@ -42,12 +121,37 @@
         "scheduler",
         "codec"
       ],
-      "control": "temporal-denoise-loop"
+      "control": "temporal-denoise-loop",
+      "slot_categories": {
+        "conditioner": "conditioner",
+        "video_denoiser": "denoiser",
+        "scheduler": "scheduler",
+        "codec": "codec"
+      },
+      "links": [
+        {
+          "from": "conditioner.conditioning",
+          "to": "video_denoiser.conditioning"
+        },
+        {
+          "from": "video_denoiser.estimate",
+          "to": "scheduler.prediction"
+        },
+        {
+          "from": "scheduler.latent",
+          "to": "video_denoiser.latent"
+        },
+        {
+          "from": "scheduler.latent",
+          "to": "codec.latent"
+        }
+      ]
     },
     "ref.environment.toy@1": {
       "category": "environment",
       "output": {
-        "observation": "toy.obs@1"
+        "observation": "toy.obs@1",
+        "episode": "toy.episode@1"
       },
       "input": {
         "action": "toy.action@1"
@@ -82,7 +186,9 @@
       "output": {
         "token_ids": "byte.tokens@1"
       },
-      "artifact_dependency": "byte.vocab.sha256:<required>"
+      "provides": {
+        "vocabulary": "example.byte.v1"
+      }
     },
     "ref.predictor.tiny@1": {
       "category": "predictor",
@@ -92,7 +198,9 @@
       "output": {
         "logits": "byte.logits@1"
       },
-      "artifact_dependency": "trained checkpoint with matching vocabulary"
+      "requires": {
+        "vocabulary": "example.byte.v1"
+      }
     },
     "ref.sampler.categorical@1": {
       "category": "sampler",
@@ -110,6 +218,9 @@
       },
       "output": {
         "text": "text@1"
+      },
+      "requires": {
+        "vocabulary": "example.byte.v1"
       }
     },
     "ref.conditioner.text@1": {
@@ -126,6 +237,9 @@
       },
       "output": {
         "estimate": "image.prediction.epsilon@1"
+      },
+      "requires": {
+        "image_codec": "example.image.codec_a.v1"
       }
     },
     "ref.scheduler.image@1": {
@@ -135,6 +249,9 @@
       },
       "output": {
         "latent": "image.latent.codec_a@1"
+      },
+      "requires": {
+        "image_codec": "example.image.codec_a.v1"
       }
     },
     "ref.codec.image@1": {
@@ -144,6 +261,9 @@
       },
       "output": {
         "image": "rgb.image@1"
+      },
+      "provides": {
+        "image_codec": "example.image.codec_a.v1"
       }
     },
     "ref.denoiser.video@1": {
@@ -154,6 +274,9 @@
       },
       "output": {
         "estimate": "video.prediction.epsilon@1"
+      },
+      "requires": {
+        "video_codec": "example.video.codec_a.v1"
       }
     },
     "ref.scheduler.video@1": {
@@ -163,6 +286,9 @@
       },
       "output": {
         "latent": "video.latent.codec_v@1"
+      },
+      "requires": {
+        "video_codec": "example.video.codec_a.v1"
       }
     },
     "ref.codec.video@1": {
@@ -172,6 +298,9 @@
       },
       "output": {
         "video": "frames.timebase_24fps@1"
+      },
+      "provides": {
+        "video_codec": "example.video.codec_a.v1"
       }
     },
     "ref.state_encoder.vad@1": {
@@ -192,6 +321,65 @@
         "action": "toy.action@1"
       },
       "note": "Reference conceptual policy for VAD-state ablation, not trained empathy."
+    },
+    "ref.tokenizer.custom_demo@1": {
+      "category": "tokenizer",
+      "output": {
+        "token_ids": "byte.tokens@1"
+      },
+      "provides": {
+        "vocabulary": "example.custom.v1"
+      },
+      "note": "Same numeric port but different vocabulary: unsafe with reference checkpoint"
+    },
+    "ref.sampler.argmax@1": {
+      "category": "sampler",
+      "input": {
+        "logits": "byte.logits@1"
+      },
+      "output": {
+        "token_ids": "byte.tokens@1"
+      },
+      "note": "Same ports, different sampling behavior; numerical results differ"
+    },
+    "ref.scheduler.image_alt@1": {
+      "category": "scheduler",
+      "input": {
+        "prediction": "image.prediction.epsilon@1"
+      },
+      "output": {
+        "latent": "image.latent.codec_a@1"
+      },
+      "requires": {
+        "image_codec": "example.image.codec_a.v1"
+      },
+      "note": "Same prediction and latent interface, pending quality and schedule tests"
+    },
+    "ref.codec.image_alt@1": {
+      "category": "codec",
+      "input": {
+        "latent": "image.latent.codec_a@1"
+      },
+      "output": {
+        "image": "rgb.image@1"
+      },
+      "provides": {
+        "image_codec": "example.image.codec_b.v1"
+      },
+      "note": "Same nominal latent shape but incompatible learned codec"
+    },
+    "ref.codec.video_alt@1": {
+      "category": "codec",
+      "input": {
+        "latent": "video.latent.codec_v@1"
+      },
+      "output": {
+        "video": "frames.timebase_24fps@1"
+      },
+      "provides": {
+        "video_codec": "example.video.codec_b.v1"
+      },
+      "note": "Different temporal latent distribution requires migration"
     }
   }
 }

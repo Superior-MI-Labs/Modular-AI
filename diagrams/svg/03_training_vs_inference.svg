@@ -8,126 +8,126 @@
  viewBox="0.00 0.00 377.50 604.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 586)">
 <title>G</title>
-<polygon fill="white" stroke="transparent" points="-18,18 -18,-586 359.5,-586 359.5,18 -18,18"/>
+<polygon fill="#0c2236" stroke="transparent" points="-18,18 -18,-586 359.5,-586 359.5,18 -18,18"/>
 <!-- DATA&#45;&gt;FOR -->
 <g id="edge1" class="edge">
 <title>DATA&#45;&gt;FOR</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M211.5,-531.84C211.5,-522.12 211.5,-509.82 211.5,-499.15"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="213.95,-499.07 211.5,-492.07 209.05,-499.07 213.95,-499.07"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M211.5,-531.84C211.5,-522.12 211.5,-509.82 211.5,-499.15"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="213.95,-499.07 211.5,-492.07 209.05,-499.07 213.95,-499.07"/>
 </g>
 <!-- FOR&#45;&gt;LOSS -->
 <g id="edge3" class="edge">
 <title>FOR&#45;&gt;LOSS</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M192.02,-455.84C180.14,-445.38 164.86,-431.91 152.15,-420.71"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="153.75,-418.86 146.88,-416.07 150.51,-422.54 153.75,-418.86"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M192.02,-455.84C180.14,-445.38 164.86,-431.91 152.15,-420.71"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="153.75,-418.86 146.88,-416.07 150.51,-422.54 153.75,-418.86"/>
 </g>
 <!-- WEIGHTS&#45;&gt;FOR -->
 <g id="edge2" class="edge">
 <title>WEIGHTS&#45;&gt;FOR</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M173.51,-188.14C176.05,-199.42 179.26,-214.53 181.5,-228 194.88,-308.52 204.96,-404.86 209.24,-448.89"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="206.81,-449.26 209.92,-456 211.69,-448.79 206.81,-449.26"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M173.51,-188.14C176.05,-199.42 179.26,-214.53 181.5,-228 194.88,-308.52 204.96,-404.86 209.24,-448.89"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="206.81,-449.26 209.92,-456 211.69,-448.79 206.81,-449.26"/>
 </g>
 <!-- WEIGHTS&#45;&gt;INF -->
 <g id="edge8" class="edge">
 <title>WEIGHTS&#45;&gt;INF</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M184.81,-151.84C193.97,-141.56 205.72,-128.39 215.6,-117.32"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="217.44,-118.92 220.28,-112.07 213.79,-115.66 217.44,-118.92"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M184.81,-151.84C193.97,-141.56 205.72,-128.39 215.6,-117.32"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="217.44,-118.92 220.28,-112.07 213.79,-115.66 217.44,-118.92"/>
 </g>
 <!-- LOSS&#45;&gt;GRAD -->
 <g id="edge5" class="edge">
 <title>LOSS&#45;&gt;GRAD</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M127.5,-379.84C127.5,-370.12 127.5,-357.82 127.5,-347.15"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="129.95,-347.07 127.5,-340.07 125.05,-347.07 129.95,-347.07"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M127.5,-379.84C127.5,-370.12 127.5,-357.82 127.5,-347.15"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="129.95,-347.07 127.5,-340.07 125.05,-347.07 129.95,-347.07"/>
 </g>
 <!-- TARGET&#45;&gt;LOSS -->
 <g id="edge4" class="edge">
 <title>TARGET&#45;&gt;LOSS</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M80.65,-455.84C89.04,-445.66 99.78,-432.63 108.85,-421.62"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="110.87,-423.03 113.43,-416.07 107.09,-419.91 110.87,-423.03"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M80.65,-455.84C89.04,-445.66 99.78,-432.63 108.85,-421.62"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="110.87,-423.03 113.43,-416.07 107.09,-419.91 110.87,-423.03"/>
 </g>
 <!-- GRAD&#45;&gt;OPT -->
 <g id="edge6" class="edge">
 <title>GRAD&#45;&gt;OPT</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M127.5,-303.84C127.5,-294.12 127.5,-281.82 127.5,-271.15"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="129.95,-271.07 127.5,-264.07 125.05,-271.07 129.95,-271.07"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M127.5,-303.84C127.5,-294.12 127.5,-281.82 127.5,-271.15"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="129.95,-271.07 127.5,-264.07 125.05,-271.07 129.95,-271.07"/>
 </g>
 <!-- OPT&#45;&gt;WEIGHTS -->
 <g id="edge7" class="edge">
 <title>OPT&#45;&gt;WEIGHTS</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M137.24,-227.84C142.91,-217.84 150.14,-205.11 156.32,-194.23"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="158.49,-195.37 159.81,-188.07 154.23,-192.95 158.49,-195.37"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M137.24,-227.84C142.91,-217.84 150.14,-205.11 156.32,-194.23"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="158.49,-195.37 159.81,-188.07 154.23,-192.95 158.49,-195.37"/>
 </g>
 <!-- INF&#45;&gt;PRED -->
 <g id="edge10" class="edge">
 <title>INF&#45;&gt;PRED</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M235.5,-75.84C235.5,-66.12 235.5,-53.82 235.5,-43.15"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="237.95,-43.07 235.5,-36.07 233.05,-43.07 237.95,-43.07"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M235.5,-75.84C235.5,-66.12 235.5,-53.82 235.5,-43.15"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="237.95,-43.07 235.5,-36.07 233.05,-43.07 237.95,-43.07"/>
 </g>
 <!-- QUERY&#45;&gt;INF -->
 <g id="edge9" class="edge">
 <title>QUERY&#45;&gt;INF</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M286.19,-151.84C277.03,-141.56 265.28,-128.39 255.4,-117.32"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="257.21,-115.66 250.72,-112.07 253.56,-118.92 257.21,-115.66"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M286.19,-151.84C277.03,-141.56 265.28,-128.39 255.4,-117.32"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="257.21,-115.66 250.72,-112.07 253.56,-118.92 257.21,-115.66"/>
 </g>
 <!-- DATA -->
 <g id="node1" class="node">
 <title>DATA</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M247.5,-568C247.5,-568 175.5,-568 175.5,-568 169.5,-568 163.5,-562 163.5,-556 163.5,-556 163.5,-544 163.5,-544 163.5,-538 169.5,-532 175.5,-532 175.5,-532 247.5,-532 247.5,-532 253.5,-532 259.5,-538 259.5,-544 259.5,-544 259.5,-556 259.5,-556 259.5,-562 253.5,-568 247.5,-568"/>
-<text text-anchor="middle" x="211.5" y="-547.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Training data</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M247.5,-568C247.5,-568 175.5,-568 175.5,-568 169.5,-568 163.5,-562 163.5,-556 163.5,-556 163.5,-544 163.5,-544 163.5,-538 169.5,-532 175.5,-532 175.5,-532 247.5,-532 247.5,-532 253.5,-532 259.5,-538 259.5,-544 259.5,-544 259.5,-556 259.5,-556 259.5,-562 253.5,-568 247.5,-568"/>
+<text text-anchor="middle" x="211.5" y="-547.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Training data</text>
 </g>
 <!-- FOR -->
 <g id="node2" class="node">
 <title>FOR</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M248.5,-492C248.5,-492 174.5,-492 174.5,-492 168.5,-492 162.5,-486 162.5,-480 162.5,-480 162.5,-468 162.5,-468 162.5,-462 168.5,-456 174.5,-456 174.5,-456 248.5,-456 248.5,-456 254.5,-456 260.5,-462 260.5,-468 260.5,-468 260.5,-480 260.5,-480 260.5,-486 254.5,-492 248.5,-492"/>
-<text text-anchor="middle" x="211.5" y="-471.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Forward pass</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M248.5,-492C248.5,-492 174.5,-492 174.5,-492 168.5,-492 162.5,-486 162.5,-480 162.5,-480 162.5,-468 162.5,-468 162.5,-462 168.5,-456 174.5,-456 174.5,-456 248.5,-456 248.5,-456 254.5,-456 260.5,-462 260.5,-468 260.5,-468 260.5,-480 260.5,-480 260.5,-486 254.5,-492 248.5,-492"/>
+<text text-anchor="middle" x="211.5" y="-471.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Forward pass</text>
 </g>
 <!-- WEIGHTS -->
 <g id="node3" class="node">
 <title>WEIGHTS</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M220,-188C220,-188 119,-188 119,-188 113,-188 107,-182 107,-176 107,-176 107,-164 107,-164 107,-158 113,-152 119,-152 119,-152 220,-152 220,-152 226,-152 232,-158 232,-164 232,-164 232,-176 232,-176 232,-182 226,-188 220,-188"/>
-<text text-anchor="middle" x="169.5" y="-167.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Model parameters</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M220,-188C220,-188 119,-188 119,-188 113,-188 107,-182 107,-176 107,-176 107,-164 107,-164 107,-158 113,-152 119,-152 119,-152 220,-152 220,-152 226,-152 232,-158 232,-164 232,-164 232,-176 232,-176 232,-182 226,-188 220,-188"/>
+<text text-anchor="middle" x="169.5" y="-167.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Model parameters</text>
 </g>
 <!-- LOSS -->
 <g id="node4" class="node">
 <title>LOSS</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M142.5,-416C142.5,-416 112.5,-416 112.5,-416 106.5,-416 100.5,-410 100.5,-404 100.5,-404 100.5,-392 100.5,-392 100.5,-386 106.5,-380 112.5,-380 112.5,-380 142.5,-380 142.5,-380 148.5,-380 154.5,-386 154.5,-392 154.5,-392 154.5,-404 154.5,-404 154.5,-410 148.5,-416 142.5,-416"/>
-<text text-anchor="middle" x="127.5" y="-395.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Loss</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M142.5,-416C142.5,-416 112.5,-416 112.5,-416 106.5,-416 100.5,-410 100.5,-404 100.5,-404 100.5,-392 100.5,-392 100.5,-386 106.5,-380 112.5,-380 112.5,-380 142.5,-380 142.5,-380 148.5,-380 154.5,-386 154.5,-392 154.5,-392 154.5,-404 154.5,-404 154.5,-410 148.5,-416 142.5,-416"/>
+<text text-anchor="middle" x="127.5" y="-395.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Loss</text>
 </g>
 <!-- TARGET -->
 <g id="node5" class="node">
 <title>TARGET</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M121,-492C121,-492 12,-492 12,-492 6,-492 0,-486 0,-480 0,-480 0,-468 0,-468 0,-462 6,-456 12,-456 12,-456 121,-456 121,-456 127,-456 133,-462 133,-468 133,-468 133,-480 133,-480 133,-486 127,-492 121,-492"/>
-<text text-anchor="middle" x="66.5" y="-471.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Targets / objectives</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M121,-492C121,-492 12,-492 12,-492 6,-492 0,-486 0,-480 0,-480 0,-468 0,-468 0,-462 6,-456 12,-456 12,-456 121,-456 121,-456 127,-456 133,-462 133,-468 133,-468 133,-480 133,-480 133,-486 127,-492 121,-492"/>
+<text text-anchor="middle" x="66.5" y="-471.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Targets / objectives</text>
 </g>
 <!-- GRAD -->
 <g id="node6" class="node">
 <title>GRAD</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M154.5,-340C154.5,-340 100.5,-340 100.5,-340 94.5,-340 88.5,-334 88.5,-328 88.5,-328 88.5,-316 88.5,-316 88.5,-310 94.5,-304 100.5,-304 100.5,-304 154.5,-304 154.5,-304 160.5,-304 166.5,-310 166.5,-316 166.5,-316 166.5,-328 166.5,-328 166.5,-334 160.5,-340 154.5,-340"/>
-<text text-anchor="middle" x="127.5" y="-319.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Gradients</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M154.5,-340C154.5,-340 100.5,-340 100.5,-340 94.5,-340 88.5,-334 88.5,-328 88.5,-328 88.5,-316 88.5,-316 88.5,-310 94.5,-304 100.5,-304 100.5,-304 154.5,-304 154.5,-304 160.5,-304 166.5,-310 166.5,-316 166.5,-316 166.5,-328 166.5,-328 166.5,-334 160.5,-340 154.5,-340"/>
+<text text-anchor="middle" x="127.5" y="-319.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Gradients</text>
 </g>
 <!-- OPT -->
 <g id="node7" class="node">
 <title>OPT</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M155,-264C155,-264 100,-264 100,-264 94,-264 88,-258 88,-252 88,-252 88,-240 88,-240 88,-234 94,-228 100,-228 100,-228 155,-228 155,-228 161,-228 167,-234 167,-240 167,-240 167,-252 167,-252 167,-258 161,-264 155,-264"/>
-<text text-anchor="middle" x="127.5" y="-243.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Optimizer</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M155,-264C155,-264 100,-264 100,-264 94,-264 88,-258 88,-252 88,-252 88,-240 88,-240 88,-234 94,-228 100,-228 100,-228 155,-228 155,-228 161,-228 167,-234 167,-240 167,-240 167,-252 167,-252 167,-258 161,-264 155,-264"/>
+<text text-anchor="middle" x="127.5" y="-243.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Optimizer</text>
 </g>
 <!-- INF -->
 <g id="node8" class="node">
 <title>INF</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M299,-112C299,-112 172,-112 172,-112 166,-112 160,-106 160,-100 160,-100 160,-88 160,-88 160,-82 166,-76 172,-76 172,-76 299,-76 299,-76 305,-76 311,-82 311,-88 311,-88 311,-100 311,-100 311,-106 305,-112 299,-112"/>
-<text text-anchor="middle" x="235.5" y="-91.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Inference forward pass</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M299,-112C299,-112 172,-112 172,-112 166,-112 160,-106 160,-100 160,-100 160,-88 160,-88 160,-82 166,-76 172,-76 172,-76 299,-76 299,-76 305,-76 311,-82 311,-88 311,-88 311,-100 311,-100 311,-106 305,-112 299,-112"/>
+<text text-anchor="middle" x="235.5" y="-91.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Inference forward pass</text>
 </g>
 <!-- QUERY -->
 <g id="node9" class="node">
 <title>QUERY</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M329.5,-188C329.5,-188 273.5,-188 273.5,-188 267.5,-188 261.5,-182 261.5,-176 261.5,-176 261.5,-164 261.5,-164 261.5,-158 267.5,-152 273.5,-152 273.5,-152 329.5,-152 329.5,-152 335.5,-152 341.5,-158 341.5,-164 341.5,-164 341.5,-176 341.5,-176 341.5,-182 335.5,-188 329.5,-188"/>
-<text text-anchor="middle" x="301.5" y="-167.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">New input</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M329.5,-188C329.5,-188 273.5,-188 273.5,-188 267.5,-188 261.5,-182 261.5,-176 261.5,-176 261.5,-164 261.5,-164 261.5,-158 267.5,-152 273.5,-152 273.5,-152 329.5,-152 329.5,-152 335.5,-152 341.5,-158 341.5,-164 341.5,-164 341.5,-176 341.5,-176 341.5,-182 335.5,-188 329.5,-188"/>
+<text text-anchor="middle" x="301.5" y="-167.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">New input</text>
 </g>
 <!-- PRED -->
 <g id="node10" class="node">
 <title>PRED</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M263,-36C263,-36 208,-36 208,-36 202,-36 196,-30 196,-24 196,-24 196,-12 196,-12 196,-6 202,0 208,0 208,0 263,0 263,0 269,0 275,-6 275,-12 275,-12 275,-24 275,-24 275,-30 269,-36 263,-36"/>
-<text text-anchor="middle" x="235.5" y="-15.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Prediction</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M263,-36C263,-36 208,-36 208,-36 202,-36 196,-30 196,-24 196,-24 196,-12 196,-12 196,-6 202,0 208,0 208,0 263,0 263,0 269,0 275,-6 275,-12 275,-12 275,-24 275,-24 275,-30 269,-36 263,-36"/>
+<text text-anchor="middle" x="235.5" y="-15.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Prediction</text>
 </g>
 </g>
 </svg>

@@ -8,102 +8,102 @@
  viewBox="0.00 0.00 256.00 528.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 510)">
 <title>G</title>
-<polygon fill="white" stroke="transparent" points="-18,18 -18,-510 238,-510 238,18 -18,18"/>
+<polygon fill="#0c2236" stroke="transparent" points="-18,18 -18,-510 238,-510 238,18 -18,18"/>
 <!-- X&#45;&gt;F -->
 <g id="edge1" class="edge">
 <title>X&#45;&gt;F</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M125.5,-455.84C125.5,-446.12 125.5,-433.82 125.5,-423.15"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="127.95,-423.07 125.5,-416.07 123.05,-423.07 127.95,-423.07"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M125.5,-455.84C125.5,-446.12 125.5,-433.82 125.5,-423.15"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="127.95,-423.07 125.5,-416.07 123.05,-423.07 127.95,-423.07"/>
 </g>
 <!-- F&#45;&gt;YH -->
 <g id="edge3" class="edge">
 <title>F&#45;&gt;YH</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M105.55,-379.84C93.4,-369.38 77.75,-355.91 64.74,-344.71"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="66.24,-342.78 59.34,-340.07 63.05,-346.49 66.24,-342.78"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M105.55,-379.84C93.4,-369.38 77.75,-355.91 64.74,-344.71"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="66.24,-342.78 59.34,-340.07 63.05,-346.49 66.24,-342.78"/>
 </g>
 <!-- TH&#45;&gt;F -->
 <g id="edge2" class="edge">
 <title>TH&#45;&gt;F</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M169.77,-36.33C184.93,-63.58 211.5,-118.56 211.5,-169 211.5,-247 211.5,-247 211.5,-247 211.5,-290.43 203.99,-302.85 181.5,-340 173.67,-352.94 162.36,-365.19 151.94,-375"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="150.11,-373.36 146.6,-379.89 153.42,-376.97 150.11,-373.36"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M169.77,-36.33C184.93,-63.58 211.5,-118.56 211.5,-169 211.5,-247 211.5,-247 211.5,-247 211.5,-290.43 203.99,-302.85 181.5,-340 173.67,-352.94 162.36,-365.19 151.94,-375"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="150.11,-373.36 146.6,-379.89 153.42,-376.97 150.11,-373.36"/>
 </g>
 <!-- YH&#45;&gt;LOSS -->
 <g id="edge4" class="edge">
 <title>YH&#45;&gt;LOSS</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M55.5,-303.84C65.08,-293.56 77.36,-280.39 87.69,-269.32"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="89.6,-270.86 92.58,-264.07 86.02,-267.52 89.6,-270.86"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M55.5,-303.84C65.08,-293.56 77.36,-280.39 87.69,-269.32"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="89.6,-270.86 92.58,-264.07 86.02,-267.52 89.6,-270.86"/>
 </g>
 <!-- LOSS&#45;&gt;BACK -->
 <g id="edge6" class="edge">
 <title>LOSS&#45;&gt;BACK</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M108.5,-227.84C108.5,-218.12 108.5,-205.82 108.5,-195.15"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="110.95,-195.07 108.5,-188.07 106.05,-195.07 110.95,-195.07"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M108.5,-227.84C108.5,-218.12 108.5,-205.82 108.5,-195.15"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="110.95,-195.07 108.5,-188.07 106.05,-195.07 110.95,-195.07"/>
 </g>
 <!-- TARGET&#45;&gt;LOSS -->
 <g id="edge5" class="edge">
 <title>TARGET&#45;&gt;LOSS</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M130.77,-303.84C126.93,-294.03 122.05,-281.58 117.84,-270.84"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="120.02,-269.69 115.19,-264.07 115.46,-271.48 120.02,-269.69"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M130.77,-303.84C126.93,-294.03 122.05,-281.58 117.84,-270.84"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="120.02,-269.69 115.19,-264.07 115.46,-271.48 120.02,-269.69"/>
 </g>
 <!-- BACK&#45;&gt;OPT -->
 <g id="edge7" class="edge">
 <title>BACK&#45;&gt;OPT</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M109.2,-151.84C109.59,-142.12 110.09,-129.82 110.52,-119.15"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="112.97,-119.16 110.81,-112.07 108.08,-118.96 112.97,-119.16"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M109.2,-151.84C109.59,-142.12 110.09,-129.82 110.52,-119.15"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="112.97,-119.16 110.81,-112.07 108.08,-118.96 112.97,-119.16"/>
 </g>
 <!-- OPT&#45;&gt;TH -->
 <g id="edge8" class="edge">
 <title>OPT&#45;&gt;TH</title>
-<path fill="none" stroke="#5c8299" stroke-width="1.3" d="M122.63,-75.84C129.12,-65.84 137.38,-53.11 144.43,-42.23"/>
-<polygon fill="#5c8299" stroke="#5c8299" stroke-width="1.3" points="146.67,-43.28 148.43,-36.07 142.56,-40.61 146.67,-43.28"/>
+<path fill="none" stroke="#7dd7da" stroke-width="1.3" d="M122.63,-75.84C129.12,-65.84 137.38,-53.11 144.43,-42.23"/>
+<polygon fill="#7dd7da" stroke="#7dd7da" stroke-width="1.3" points="146.67,-43.28 148.43,-36.07 142.56,-40.61 146.67,-43.28"/>
 </g>
 <!-- X -->
 <g id="node1" class="node">
 <title>X</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M145,-492C145,-492 106,-492 106,-492 100,-492 94,-486 94,-480 94,-480 94,-468 94,-468 94,-462 100,-456 106,-456 106,-456 145,-456 145,-456 151,-456 157,-462 157,-468 157,-468 157,-480 157,-480 157,-486 151,-492 145,-492"/>
-<text text-anchor="middle" x="125.5" y="-471.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Input x</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M145,-492C145,-492 106,-492 106,-492 100,-492 94,-486 94,-480 94,-480 94,-468 94,-468 94,-462 100,-456 106,-456 106,-456 145,-456 145,-456 151,-456 157,-462 157,-468 157,-468 157,-480 157,-480 157,-486 151,-492 145,-492"/>
+<text text-anchor="middle" x="125.5" y="-471.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Input x</text>
 </g>
 <!-- F -->
 <g id="node2" class="node">
 <title>F</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M172.5,-416C172.5,-416 78.5,-416 78.5,-416 72.5,-416 66.5,-410 66.5,-404 66.5,-404 66.5,-392 66.5,-392 66.5,-386 72.5,-380 78.5,-380 78.5,-380 172.5,-380 172.5,-380 178.5,-380 184.5,-386 184.5,-392 184.5,-392 184.5,-404 184.5,-404 184.5,-410 178.5,-416 172.5,-416"/>
-<text text-anchor="middle" x="125.5" y="-395.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Model f(x; theta)</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M172.5,-416C172.5,-416 78.5,-416 78.5,-416 72.5,-416 66.5,-410 66.5,-404 66.5,-404 66.5,-392 66.5,-392 66.5,-386 72.5,-380 78.5,-380 78.5,-380 172.5,-380 172.5,-380 178.5,-380 184.5,-386 184.5,-392 184.5,-392 184.5,-404 184.5,-404 184.5,-410 178.5,-416 172.5,-416"/>
+<text text-anchor="middle" x="125.5" y="-395.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Model f(x; theta)</text>
 </g>
 <!-- TH -->
 <g id="node3" class="node">
 <title>TH</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M208,-36C208,-36 111,-36 111,-36 105,-36 99,-30 99,-24 99,-24 99,-12 99,-12 99,-6 105,0 111,0 111,0 208,0 208,0 214,0 220,-6 220,-12 220,-12 220,-24 220,-24 220,-30 214,-36 208,-36"/>
-<text text-anchor="middle" x="159.5" y="-15.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Parameters theta</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M208,-36C208,-36 111,-36 111,-36 105,-36 99,-30 99,-24 99,-24 99,-12 99,-12 99,-6 105,0 111,0 111,0 208,0 208,0 214,0 220,-6 220,-12 220,-12 220,-24 220,-24 220,-30 214,-36 208,-36"/>
+<text text-anchor="middle" x="159.5" y="-15.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Parameters theta</text>
 </g>
 <!-- YH -->
 <g id="node4" class="node">
 <title>YH</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M67,-340C67,-340 12,-340 12,-340 6,-340 0,-334 0,-328 0,-328 0,-316 0,-316 0,-310 6,-304 12,-304 12,-304 67,-304 67,-304 73,-304 79,-310 79,-316 79,-316 79,-328 79,-328 79,-334 73,-340 67,-340"/>
-<text text-anchor="middle" x="39.5" y="-319.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Prediction</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M67,-340C67,-340 12,-340 12,-340 6,-340 0,-334 0,-328 0,-328 0,-316 0,-316 0,-310 6,-304 12,-304 12,-304 67,-304 67,-304 73,-304 79,-310 79,-316 79,-316 79,-328 79,-328 79,-334 73,-340 67,-340"/>
+<text text-anchor="middle" x="39.5" y="-319.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Prediction</text>
 </g>
 <!-- LOSS -->
 <g id="node5" class="node">
 <title>LOSS</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M123.5,-264C123.5,-264 93.5,-264 93.5,-264 87.5,-264 81.5,-258 81.5,-252 81.5,-252 81.5,-240 81.5,-240 81.5,-234 87.5,-228 93.5,-228 93.5,-228 123.5,-228 123.5,-228 129.5,-228 135.5,-234 135.5,-240 135.5,-240 135.5,-252 135.5,-252 135.5,-258 129.5,-264 123.5,-264"/>
-<text text-anchor="middle" x="108.5" y="-243.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Loss</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M123.5,-264C123.5,-264 93.5,-264 93.5,-264 87.5,-264 81.5,-258 81.5,-252 81.5,-252 81.5,-240 81.5,-240 81.5,-234 87.5,-228 93.5,-228 93.5,-228 123.5,-228 123.5,-228 129.5,-228 135.5,-234 135.5,-240 135.5,-240 135.5,-252 135.5,-252 135.5,-258 129.5,-264 123.5,-264"/>
+<text text-anchor="middle" x="108.5" y="-243.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Loss</text>
 </g>
 <!-- TARGET -->
 <g id="node6" class="node">
 <title>TARGET</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M155,-340C155,-340 120,-340 120,-340 114,-340 108,-334 108,-328 108,-328 108,-316 108,-316 108,-310 114,-304 120,-304 120,-304 155,-304 155,-304 161,-304 167,-310 167,-316 167,-316 167,-328 167,-328 167,-334 161,-340 155,-340"/>
-<text text-anchor="middle" x="137.5" y="-319.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Target</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M155,-340C155,-340 120,-340 120,-340 114,-340 108,-334 108,-328 108,-328 108,-316 108,-316 108,-310 114,-304 120,-304 120,-304 155,-304 155,-304 161,-304 167,-310 167,-316 167,-316 167,-328 167,-328 167,-334 161,-340 155,-340"/>
+<text text-anchor="middle" x="137.5" y="-319.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Target</text>
 </g>
 <!-- BACK -->
 <g id="node7" class="node">
 <title>BACK</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M155,-188C155,-188 62,-188 62,-188 56,-188 50,-182 50,-176 50,-176 50,-164 50,-164 50,-158 56,-152 62,-152 62,-152 155,-152 155,-152 161,-152 167,-158 167,-164 167,-164 167,-176 167,-176 167,-182 161,-188 155,-188"/>
-<text text-anchor="middle" x="108.5" y="-167.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Backpropagation</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M155,-188C155,-188 62,-188 62,-188 56,-188 50,-182 50,-176 50,-176 50,-164 50,-164 50,-158 56,-152 62,-152 62,-152 155,-152 155,-152 161,-152 167,-158 167,-164 167,-164 167,-176 167,-176 167,-182 161,-188 155,-188"/>
+<text text-anchor="middle" x="108.5" y="-167.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Backpropagation</text>
 </g>
 <!-- OPT -->
 <g id="node8" class="node">
 <title>OPT</title>
-<path fill="#f2f6fa" stroke="#aabbc9" stroke-width="1.2" d="M152.5,-112C152.5,-112 70.5,-112 70.5,-112 64.5,-112 58.5,-106 58.5,-100 58.5,-100 58.5,-88 58.5,-88 58.5,-82 64.5,-76 70.5,-76 70.5,-76 152.5,-76 152.5,-76 158.5,-76 164.5,-82 164.5,-88 164.5,-88 164.5,-100 164.5,-100 164.5,-106 158.5,-112 152.5,-112"/>
-<text text-anchor="middle" x="111.5" y="-91.2" font-family="DejaVu Sans" font-size="11.00" fill="#183149">Optimizer step</text>
+<path fill="#16364b" stroke="#4a7790" stroke-width="1.2" d="M152.5,-112C152.5,-112 70.5,-112 70.5,-112 64.5,-112 58.5,-106 58.5,-100 58.5,-100 58.5,-88 58.5,-88 58.5,-82 64.5,-76 70.5,-76 70.5,-76 152.5,-76 152.5,-76 158.5,-76 164.5,-82 164.5,-88 164.5,-88 164.5,-100 164.5,-100 164.5,-106 158.5,-112 152.5,-112"/>
+<text text-anchor="middle" x="111.5" y="-91.2" font-family="DejaVu Sans" font-size="11.00" fill="#ebf7fa">Optimizer step</text>
 </g>
 </g>
 </svg>
