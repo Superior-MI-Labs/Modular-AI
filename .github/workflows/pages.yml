@@ -1,0 +1,52 @@
+name: Publish Modular AI Atlas
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/pages.yml'
+      - 'README.md'
+      - 'site/**'
+      - 'diagrams/**'
+      - 'tools/build_site.py'
+      - 'tools/export_svg.py'
+      - 'tests/**'
+      - 'docs/**'
+      - 'examples/**'
+      - 'schemas/**'
+      - 'registry/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Ensure Graphviz is available
+        run: command -v dot || (sudo apt-get update && sudo apt-get install -y graphviz)
+      - name: Validate architecture manifests
+        run: python3 tests/validate_bundle.py
+      - name: Test site and generate static pages
+        run: python3 -m unittest discover -s tests -p 'test_site.py'
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: '.site-dist'
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

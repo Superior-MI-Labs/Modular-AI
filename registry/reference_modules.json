@@ -1,0 +1,197 @@
+{
+  "registry_schema_version": 1,
+  "note": "Architecture-only illustrative registry; IDs are not actual installed modules.",
+  "modules": {
+    "ref.workflow.episode@1": {
+      "category": "workflow",
+      "slots": [
+        "environment",
+        "policy",
+        "evaluator"
+      ],
+      "control": "episode-loop",
+      "optional_slots": [
+        "state_encoder"
+      ]
+    },
+    "ref.workflow.autoregressive@1": {
+      "category": "workflow",
+      "slots": [
+        "tokenizer",
+        "predictor",
+        "sampler",
+        "decoder"
+      ],
+      "control": "token-loop"
+    },
+    "ref.workflow.iterative-image@1": {
+      "category": "workflow",
+      "slots": [
+        "conditioner",
+        "denoiser",
+        "scheduler",
+        "codec"
+      ],
+      "control": "denoise-loop"
+    },
+    "ref.workflow.iterative-video@1": {
+      "category": "workflow",
+      "slots": [
+        "conditioner",
+        "video_denoiser",
+        "scheduler",
+        "codec"
+      ],
+      "control": "temporal-denoise-loop"
+    },
+    "ref.environment.toy@1": {
+      "category": "environment",
+      "output": {
+        "observation": "toy.obs@1"
+      },
+      "input": {
+        "action": "toy.action@1"
+      }
+    },
+    "ref.policy.utility@1": {
+      "category": "policy",
+      "input": {
+        "observation": "toy.obs@1"
+      },
+      "output": {
+        "action": "toy.action@1"
+      }
+    },
+    "ref.policy.utility_alternative@1": {
+      "category": "policy",
+      "input": {
+        "observation": "toy.obs@1"
+      },
+      "output": {
+        "action": "toy.action@1"
+      }
+    },
+    "ref.evaluator.episode@1": {
+      "category": "evaluator",
+      "input": {
+        "result": "toy.episode@1"
+      }
+    },
+    "ref.tokenizer.byte@1": {
+      "category": "tokenizer",
+      "output": {
+        "token_ids": "byte.tokens@1"
+      },
+      "artifact_dependency": "byte.vocab.sha256:<required>"
+    },
+    "ref.predictor.tiny@1": {
+      "category": "predictor",
+      "input": {
+        "token_ids": "byte.tokens@1"
+      },
+      "output": {
+        "logits": "byte.logits@1"
+      },
+      "artifact_dependency": "trained checkpoint with matching vocabulary"
+    },
+    "ref.sampler.categorical@1": {
+      "category": "sampler",
+      "input": {
+        "logits": "byte.logits@1"
+      },
+      "output": {
+        "token_ids": "byte.tokens@1"
+      }
+    },
+    "ref.decoder.byte@1": {
+      "category": "decoder",
+      "input": {
+        "token_ids": "byte.tokens@1"
+      },
+      "output": {
+        "text": "text@1"
+      }
+    },
+    "ref.conditioner.text@1": {
+      "category": "conditioner",
+      "output": {
+        "conditioning": "cond.text@1"
+      }
+    },
+    "ref.denoiser.image@1": {
+      "category": "denoiser",
+      "input": {
+        "latent": "image.latent.codec_a@1",
+        "conditioning": "cond.text@1"
+      },
+      "output": {
+        "estimate": "image.prediction.epsilon@1"
+      }
+    },
+    "ref.scheduler.image@1": {
+      "category": "scheduler",
+      "input": {
+        "prediction": "image.prediction.epsilon@1"
+      },
+      "output": {
+        "latent": "image.latent.codec_a@1"
+      }
+    },
+    "ref.codec.image@1": {
+      "category": "codec",
+      "input": {
+        "latent": "image.latent.codec_a@1"
+      },
+      "output": {
+        "image": "rgb.image@1"
+      }
+    },
+    "ref.denoiser.video@1": {
+      "category": "denoiser",
+      "input": {
+        "latent": "video.latent.codec_v@1",
+        "conditioning": "cond.text@1"
+      },
+      "output": {
+        "estimate": "video.prediction.epsilon@1"
+      }
+    },
+    "ref.scheduler.video@1": {
+      "category": "scheduler",
+      "input": {
+        "prediction": "video.prediction.epsilon@1"
+      },
+      "output": {
+        "latent": "video.latent.codec_v@1"
+      }
+    },
+    "ref.codec.video@1": {
+      "category": "codec",
+      "input": {
+        "latent": "video.latent.codec_v@1"
+      },
+      "output": {
+        "video": "frames.timebase_24fps@1"
+      }
+    },
+    "ref.state_encoder.vad@1": {
+      "category": "state_encoder",
+      "input": {
+        "observation": "toy.obs@1"
+      },
+      "output": {
+        "state": "vad.vector3@1"
+      }
+    },
+    "ref.policy.vad_utility@1": {
+      "category": "policy",
+      "input": {
+        "observation": "vad.vector3@1"
+      },
+      "output": {
+        "action": "toy.action@1"
+      },
+      "note": "Reference conceptual policy for VAD-state ablation, not trained empathy."
+    }
+  }
+}

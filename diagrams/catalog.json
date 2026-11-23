@@ -1,0 +1,182 @@
+[
+  {
+    "id": "01_ai_landscape",
+    "title": "AI landscape",
+    "category": "Foundations",
+    "description": "See how major architectures, learning paradigms and systems relate.",
+    "level": "1",
+    "svg": "diagrams/svg/01_ai_landscape.svg",
+    "source": "diagrams/mermaid/01_ai_landscape.mmd"
+  },
+  {
+    "id": "02_system_overview",
+    "title": "Inside an AI system",
+    "category": "Foundations",
+    "description": "Inputs, representations, working state, memory and output.",
+    "level": "2",
+    "svg": "diagrams/svg/02_system_overview.svg",
+    "source": "diagrams/mermaid/02_system_overview.mmd"
+  },
+  {
+    "id": "03_training_vs_inference",
+    "title": "Training versus inference",
+    "category": "Foundations",
+    "description": "Distinguish learning-time updates from runtime computation.",
+    "level": "2",
+    "svg": "diagrams/svg/03_training_vs_inference.svg",
+    "source": "diagrams/mermaid/03_training_vs_inference.mmd"
+  },
+  {
+    "id": "04_transformer",
+    "title": "Transformer internals",
+    "category": "Model internals",
+    "description": "Follow embeddings, attention, feed-forward layers and token prediction.",
+    "level": "3",
+    "svg": "diagrams/svg/04_transformer.svg",
+    "source": "diagrams/mermaid/04_transformer.mmd"
+  },
+  {
+    "id": "05_diffusion",
+    "title": "Diffusion training and sampling",
+    "category": "Model internals",
+    "description": "Compare noise corruption and iterative denoising.",
+    "level": "3",
+    "svg": "diagrams/svg/05_diffusion.svg",
+    "source": "diagrams/mermaid/05_diffusion.mmd"
+  },
+  {
+    "id": "06_decision_rl",
+    "title": "Decision systems and RL",
+    "category": "Model internals",
+    "description": "Observe states, policies, rewards, critics and actions.",
+    "level": "3",
+    "svg": "diagrams/svg/06_decision_rl.svg",
+    "source": "diagrams/mermaid/06_decision_rl.mmd"
+  },
+  {
+    "id": "07_graph_neural_network",
+    "title": "Graph neural networks",
+    "category": "Model internals",
+    "description": "Message passing between related objects and features.",
+    "level": "3",
+    "svg": "diagrams/svg/07_graph_neural_network.svg",
+    "source": "diagrams/mermaid/07_graph_neural_network.mmd"
+  },
+  {
+    "id": "08_state_space",
+    "title": "Recurrent and state-space models",
+    "category": "Model internals",
+    "description": "Track how internal state evolves through a sequence.",
+    "level": "3",
+    "svg": "diagrams/svg/08_state_space.svg",
+    "source": "diagrams/mermaid/08_state_space.mmd"
+  },
+  {
+    "id": "09_data_representations",
+    "title": "Numbers to tensors",
+    "category": "Representation",
+    "description": "Explore vectors, matrices, learned weights and runtime state.",
+    "level": "4",
+    "svg": "diagrams/svg/09_data_representations.svg",
+    "source": "diagrams/mermaid/09_data_representations.mmd"
+  },
+  {
+    "id": "10_single_neuron",
+    "title": "Inside one neuron",
+    "category": "Representation",
+    "description": "Trace input variables, weights, sums and activation.",
+    "level": "4",
+    "svg": "diagrams/svg/10_single_neuron.svg",
+    "source": "diagrams/mermaid/10_single_neuron.mmd"
+  },
+  {
+    "id": "11_gradient_update",
+    "title": "The learning update",
+    "category": "Learning & hardware",
+    "description": "Trace loss, gradients, optimizers and parameter updates.",
+    "level": "5",
+    "svg": "diagrams/svg/11_gradient_update.svg",
+    "source": "diagrams/mermaid/11_gradient_update.mmd"
+  },
+  {
+    "id": "12_hardware_execution",
+    "title": "AI on physical hardware",
+    "category": "Learning & hardware",
+    "description": "Follow data from storage through RAM and GPU computation.",
+    "level": "6",
+    "svg": "diagrams/svg/12_hardware_execution.svg",
+    "source": "diagrams/mermaid/12_hardware_execution.mmd"
+  },
+  {
+    "id": "13_hybrid_architecture",
+    "title": "Illustrative hybrid AI",
+    "category": "Systems",
+    "description": "A research concept joining perception, memory, decisions and generation.",
+    "level": "7",
+    "svg": "diagrams/svg/13_hybrid_architecture.svg",
+    "source": "diagrams/mermaid/13_hybrid_architecture.mmd"
+  },
+  {
+    "id": "14_platform_core",
+    "title": "Modular runtime kernel",
+    "category": "Framework",
+    "description": "A small orchestrator with registry, validators and workflows.",
+    "level": "7",
+    "svg": "diagrams/svg/14_platform_core.svg",
+    "source": "diagrams/mermaid/14_platform_core.mmd"
+  },
+  {
+    "id": "15_contract_swap",
+    "title": "Contract-checked module swapping",
+    "category": "Framework",
+    "description": "Why identical function names do not establish compatibility.",
+    "level": "7",
+    "svg": "diagrams/svg/15_contract_swap.svg",
+    "source": "diagrams/mermaid/15_contract_swap.mmd"
+  },
+  {
+    "id": "16_model_lifecycle",
+    "title": "Training through deployment",
+    "category": "Framework",
+    "description": "Follow experiments, checkpoints, quantization and evaluation.",
+    "level": "7",
+    "svg": "diagrams/svg/16_model_lifecycle.svg",
+    "source": "diagrams/mermaid/16_model_lifecycle.mmd"
+  },
+  {
+    "id": "17_modalities",
+    "title": "Text, image and video pipelines",
+    "category": "Framework",
+    "description": "Distinct generation workflows over a shared orchestration core.",
+    "level": "7",
+    "svg": "diagrams/svg/17_modalities.svg",
+    "source": "diagrams/mermaid/17_modalities.mmd"
+  },
+  {
+    "id": "18_artifact_lineage",
+    "title": "Model artifact lineage",
+    "category": "Framework",
+    "description": "Track what was trained, converted, evaluated and deployed.",
+    "level": "7",
+    "svg": "diagrams/svg/18_artifact_lineage.svg",
+    "source": "diagrams/mermaid/18_artifact_lineage.mmd"
+  },
+  {
+    "id": "19_state_memory",
+    "title": "Weights, state and memory",
+    "category": "Representation",
+    "description": "Separate fixed parameters from mutable runtime information.",
+    "level": "4",
+    "svg": "diagrams/svg/19_state_memory.svg",
+    "source": "diagrams/mermaid/19_state_memory.mmd"
+  },
+  {
+    "id": "20_decision_baseline",
+    "title": "Deterministic decision baseline",
+    "category": "Systems",
+    "description": "The testable reference policy that precedes neural experiments.",
+    "level": "7",
+    "svg": "diagrams/svg/20_decision_baseline.svg",
+    "source": "diagrams/mermaid/20_decision_baseline.mmd"
+  }
+]

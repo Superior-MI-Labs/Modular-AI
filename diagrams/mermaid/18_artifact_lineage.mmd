@@ -1,0 +1,10 @@
+flowchart TD
+    DS["Dataset hash"] --> RUN["Run record"]
+    CODE["Code + module versions"] --> RUN
+    CFG["Manifest + seed"] --> RUN
+    TOK["Tokenizer / codec identity"] --> RUN
+    RUN --> CK["Checkpoint + optimizer state"]
+    CK --> Q["Quantized deployment derivative"]
+    CK --> FT["Fine-tuned derivative"]
+    Q --> MET["Measured evaluation metrics"]
+    FT --> MET

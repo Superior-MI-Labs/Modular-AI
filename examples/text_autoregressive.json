@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "experiment_id": "text-autoregressive-v1",
+  "description": "Illustrative token loop; requires matching trained weights and vocab artifact.",
+  "workflow": {
+    "use": "ref.workflow.autoregressive@1",
+    "slots": {
+      "tokenizer": "ref.tokenizer.byte@1",
+      "predictor": "ref.predictor.tiny@1",
+      "sampler": "ref.sampler.categorical@1",
+      "decoder": "ref.decoder.byte@1"
+    },
+    "params": {
+      "max_new_tokens": 64
+    }
+  },
+  "runtime": {
+    "seed": 42,
+    "device": "cpu",
+    "precision": "fp32"
+  },
+  "artifacts": {
+    "vocabulary": "unresolved:byte-vocabulary-hash",
+    "checkpoint": "unresolved:trained-tiny-model"
+  }
+}

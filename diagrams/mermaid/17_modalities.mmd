@@ -1,0 +1,13 @@
+flowchart TD
+    ROOT["Pipeline runtime"] --> TEXT["Text generation"]
+    ROOT --> IMG["Image generation"]
+    ROOT --> VID["Video generation"]
+    TEXT --> TOK["Tokenizer"]
+    TOK --> LM["Language model"]
+    LM --> TS["Token sampler / decoder"]
+    IMG --> COND["Conditioning encoder"]
+    COND --> ID["Spatial latent denoiser"]
+    ID --> IS["Sampler + image decoder"]
+    VID --> TCOND["Text / video conditioning"]
+    TCOND --> TD["Spatiotemporal denoiser"]
+    TD --> TV["Temporal sampler + frame decoder"]

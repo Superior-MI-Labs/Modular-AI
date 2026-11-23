@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "experiment_id": "video-diffusion-v1",
+  "description": "Illustrative temporal video pipeline; actual memory requirements are unspecified.",
+  "workflow": {
+    "use": "ref.workflow.iterative-video@1",
+    "slots": {
+      "conditioner": "ref.conditioner.text@1",
+      "video_denoiser": "ref.denoiser.video@1",
+      "scheduler": "ref.scheduler.video@1",
+      "codec": "ref.codec.video@1"
+    },
+    "params": {
+      "steps": 25,
+      "num_frames": 16,
+      "fps": 24
+    }
+  },
+  "runtime": {
+    "seed": 42,
+    "device": "auto",
+    "precision": "auto"
+  },
+  "artifacts": {
+    "denoiser": "unresolved:video-denoiser",
+    "codec": "unresolved:video-codec"
+  }
+}

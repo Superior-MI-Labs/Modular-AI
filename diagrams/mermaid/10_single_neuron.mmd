@@ -1,0 +1,7 @@
+flowchart LR
+    X1["x1 = 0.5"] --> M1["multiply by 0.8"]
+    X2["x2 = -1.0"] --> M2["multiply by -0.2"]
+    M1 --> SUM["sum + bias 0.1 = 0.7"]
+    M2 --> SUM
+    SUM --> SIG["sigmoid"]
+    SIG --> Y["output about 0.668"]

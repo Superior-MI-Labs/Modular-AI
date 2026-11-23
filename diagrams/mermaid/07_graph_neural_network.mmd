@@ -1,0 +1,8 @@
+flowchart TD
+    A["Node A features"] --> AB["Message A to B"]
+    C["Node C features"] --> CB["Message C to B"]
+    AB --> AGG["Aggregate neighbor messages"]
+    CB --> AGG
+    B["Node B features"] --> UPD["Node update"]
+    AGG --> UPD
+    UPD --> NEW["Updated B representation"]

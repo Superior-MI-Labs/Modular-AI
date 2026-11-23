@@ -1,0 +1,15 @@
+flowchart TD
+    INPUT["Multimodal input"] --> ENC["Encoders"]
+    ENC --> STATE["Internal representation"]
+    STATE <--> MEM["External memory"]
+    STATE --> WORLD["World model"]
+    STATE --> GRAPH["Graph relations"]
+    GRAPH --> WORLD
+    WORLD --> POLICY["Policy / planner"]
+    STATE --> POLICY
+    STATE --> GEN["Generative model"]
+    POLICY --> ACTION["Action"]
+    GEN --> OUT["Generated output"]
+    ACTION --> FEEDBACK["Feedback"]
+    OUT --> FEEDBACK
+    FEEDBACK -.-> STATE

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "experiment_id": "image-diffusion-v1",
+  "description": "Illustrative image diffusion/denoising pipeline.",
+  "workflow": {
+    "use": "ref.workflow.iterative-image@1",
+    "slots": {
+      "conditioner": "ref.conditioner.text@1",
+      "denoiser": "ref.denoiser.image@1",
+      "scheduler": "ref.scheduler.image@1",
+      "codec": "ref.codec.image@1"
+    },
+    "params": {
+      "steps": 25,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "runtime": {
+    "seed": 42,
+    "device": "auto",
+    "precision": "auto"
+  },
+  "artifacts": {
+    "denoiser": "unresolved:image-denoiser",
+    "codec": "unresolved:image-codec"
+  }
+}

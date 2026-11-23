@@ -1,0 +1,10 @@
+flowchart LR
+    ENV["Environment"] --> OBS["Observation"]
+    OBS --> POLICY["Decision policy"]
+    POLICY --> ACTION["Action"]
+    ACTION --> ENV
+    ENV --> REWARD["Reward and next state"]
+    REWARD --> LEARN["Optional learner"]
+    LEARN -.-> POLICY
+    OBS --> VALUE["Optional value model"]
+    VALUE --> LEARN

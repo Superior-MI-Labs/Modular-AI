@@ -1,0 +1,9 @@
+flowchart TD
+    X["Input x"] --> F["Model f(x; theta)"]
+    TH["Parameters theta"] --> F
+    F --> YH["Prediction"]
+    YH --> LOSS["Loss"]
+    TARGET["Target"] --> LOSS
+    LOSS --> BACK["Backpropagation"]
+    BACK --> OPT["Optimizer step"]
+    OPT --> TH

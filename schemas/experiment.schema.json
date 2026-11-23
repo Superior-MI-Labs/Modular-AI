@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Architecture example experiment manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "experiment_id",
+    "workflow",
+    "runtime"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "experiment_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9._-]{2,79}$"
+    },
+    "description": {
+      "type": "string"
+    },
+    "workflow": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "use",
+        "slots"
+      ],
+      "properties": {
+        "use": {
+          "type": "string"
+        },
+        "slots": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "params": {
+          "type": "object"
+        }
+      }
+    },
+    "runtime": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "seed",
+        "device",
+        "precision"
+      ],
+      "properties": {
+        "seed": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "device": {
+          "type": "string",
+          "enum": [
+            "cpu",
+            "cuda",
+            "mps",
+            "auto"
+          ]
+        },
+        "precision": {
+          "type": "string",
+          "enum": [
+            "fp32",
+            "bf16",
+            "fp16",
+            "auto"
+          ]
+        },
+        "max_steps": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "memory_limit_gb": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      }
+    },
+    "artifacts": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "evaluation": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  }
+}

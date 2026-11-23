@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "experiment_id": "state-vad-research-v1",
+  "description": "Conceptual custom state encoding experiment; do not assume affective understanding.",
+  "workflow": {
+    "use": "ref.workflow.episode@1",
+    "slots": {
+      "environment": "ref.environment.toy@1",
+      "policy": "ref.policy.vad_utility@1",
+      "evaluator": "ref.evaluator.episode@1",
+      "state_encoder": "ref.state_encoder.vad@1"
+    },
+    "params": {
+      "state_schema": "vad.vector3@1",
+      "hypothesis": "Use explicit VAD state as an experimental feature; evaluate against same baseline"
+    }
+  },
+  "runtime": {
+    "seed": 42,
+    "device": "cpu",
+    "precision": "fp32",
+    "max_steps": 100
+  },
+  "evaluation": {
+    "suite": "state-ablation-v1",
+    "baseline": "decision-baseline-v1"
+  }
+}

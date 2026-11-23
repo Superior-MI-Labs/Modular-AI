@@ -1,0 +1,8 @@
+flowchart TD
+    OBS["Observation"] --> ADAPT["Validated state schema"]
+    ADAPT --> ACT["Enumerate legal actions"]
+    ACT --> RULE["Constraints / safety filter"]
+    RULE --> SCORE["Deterministic utility scores"]
+    SCORE --> SELECT["Stable argmax + tie breaker"]
+    SELECT --> OUT["Action and explanation"]
+    OUT --> EVAL["Environment feedback / tests"]

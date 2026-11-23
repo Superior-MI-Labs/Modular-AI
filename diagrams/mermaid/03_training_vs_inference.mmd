@@ -1,0 +1,11 @@
+flowchart TD
+    DATA["Training data"] --> FOR["Forward pass"]
+    WEIGHTS["Model parameters"] --> FOR
+    FOR --> LOSS["Loss"]
+    TARGET["Targets / objectives"] --> LOSS
+    LOSS --> GRAD["Gradients"]
+    GRAD --> OPT["Optimizer"]
+    OPT --> WEIGHTS
+    WEIGHTS --> INF["Inference forward pass"]
+    QUERY["New input"] --> INF
+    INF --> PRED["Prediction"]

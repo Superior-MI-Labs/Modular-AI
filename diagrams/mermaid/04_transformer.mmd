@@ -1,0 +1,13 @@
+flowchart TD
+    TOK["Token IDs"] --> EMB["Embeddings + position information"]
+    EMB --> Q["Query projection"]
+    EMB --> K["Key projection"]
+    EMB --> V["Value projection"]
+    Q --> ATT["Attention"]
+    K --> ATT
+    V --> ATT
+    ATT --> RES["Residual + normalization"]
+    EMB --> RES
+    RES --> FF["Feed-forward layer"]
+    FF --> NEXT["Repeat blocks / output head"]
+    NEXT --> LOG["Logits / predictions"]

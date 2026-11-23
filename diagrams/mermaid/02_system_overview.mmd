@@ -1,0 +1,9 @@
+flowchart LR
+    IN["Input"] --> EN["Encoding"]
+    EN --> CORE["Processing / model"]
+    CORE --> DEC["Decision or generation"]
+    DEC --> OUT["Output"]
+    MEMORY["External memory"] <--> CORE
+    STATE["Working state"] <--> CORE
+    OUT --> FEED["Feedback"]
+    FEED -.-> STATE

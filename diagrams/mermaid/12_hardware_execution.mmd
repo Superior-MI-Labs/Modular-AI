@@ -1,0 +1,8 @@
+flowchart TD
+    SSD["SSD: datasets / checkpoints"] --> RAM["RAM: batches / buffers"]
+    RAM --> CPU["CPU: preprocessing / host scheduling"]
+    RAM --> VRAM["GPU VRAM: weights / activations"]
+    CPU --> GPU["GPU: kernels / matrix operations"]
+    VRAM <--> GPU
+    GPU --> OUTPUT["Predictions / gradients"]
+    OUTPUT -.-> VRAM

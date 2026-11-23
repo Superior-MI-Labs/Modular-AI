@@ -1,0 +1,9 @@
+flowchart TD
+    RAW["Raw text / image / video / sensors"] --> PRE["Preprocess"]
+    PRE --> IDS["Token IDs / numeric features"]
+    IDS --> REP["Vectors / tensors / graph features"]
+    REP --> OPS["Matmul / attention / convolution / update"]
+    W["Parameters and biases"] --> OPS
+    ST["Working state"] --> OPS
+    OPS --> RES["Updated representation"]
+    RES --> OUT["Output head / decoder"]

@@ -1,0 +1,11 @@
+flowchart TD
+    UP["Upstream output contract"] --> V["Contract validator"]
+    DOWN["Downstream input contract"] --> V
+    NEWIN["Replacement input contract"] --> V
+    NEWOUT["Replacement output contract"] --> V
+    DEP["Checkpoint / tokenizer / codec dependencies"] --> V
+    V --> DEC{"All compatible?"}
+    DEC -->|Yes| SNAP["Start isolated new run"]
+    DEC -->|No| MIG["Migrate / retrain / reject"]
+    SNAP --> TEST["Compare tests and metrics"]
+    MIG --> TEST

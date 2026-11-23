@@ -1,0 +1,12 @@
+flowchart TD
+    DATA["Versioned dataset"] --> PRE["Preprocess / split"]
+    PRE --> TRAIN["Train or fine-tune"]
+    TRAIN --> CK["Full precision checkpoint"]
+    CK --> EVAL["Holdout evaluation"]
+    EVAL --> GATE{"Quality / safety gates"}
+    GATE -->|Pass| OPT["Optional optimization"]
+    GATE -->|Fail| REVISE["Revise experiment"]
+    OPT --> QT["Quantize / prune / compile"]
+    QT --> REVAL["Re-evaluate candidate"]
+    REVAL --> DEP["Package deployment artifact"]
+    DEP --> MON["Monitor / compare"]

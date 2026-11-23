@@ -1,0 +1,10 @@
+flowchart TD
+    INPUT["New observation"] --> MODEL["Model forward pass"]
+    WEIGHTS["Frozen learned weights"] --> MODEL
+    STATE["Working state / recurrent cache"] <--> MODEL
+    MEMORY["External memory store"] <--> MODEL
+    MODEL --> OUTPUT["Prediction / action"]
+    OUTPUT --> FEEDBACK["Feedback"]
+    FEEDBACK --> STATE
+    FEEDBACK -.-> MEMORY
+    TRAIN["Separate training pipeline"] -.-> WEIGHTS

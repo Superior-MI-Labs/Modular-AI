@@ -1,0 +1,15 @@
+.site-dist/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.env
+.env.*
+!.env.example
+checkpoints/
+artifacts/
+runs/
+*.safetensors
+*.gguf
+*.pt
+*.pth

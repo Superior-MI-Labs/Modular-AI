@@ -1,0 +1,12 @@
+flowchart TD
+    SPEC["Experiment manifest"] --> REG["Module registry"]
+    REG --> CHECK["Port and artifact validator"]
+    CHECK --> EXEC["Workflow executor"]
+    EXEC --> ENC["Encoder / tokenizer plugin"]
+    EXEC --> MODEL["Model plugin"]
+    EXEC --> POLICY["Policy / sampling plugin"]
+    EXEC --> DEC["Decoder plugin"]
+    EXEC --> TRAIN["Training / evaluation workflows"]
+    EXEC --> ART["Artifact and experiment records"]
+    MODEL --> ART
+    TRAIN --> ART

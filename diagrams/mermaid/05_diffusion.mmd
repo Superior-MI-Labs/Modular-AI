@@ -1,0 +1,11 @@
+flowchart TD
+    IMG["Clean training sample"] --> NOISE["Noisy sample at t"]
+    EPS["Sampled noise and timestep"] --> NOISE
+    NOISE --> DENOISE["Denoiser network"]
+    DENOISE --> LOSS["Prediction objective"]
+    EPS --> LOSS
+    LOSS --> UPDATE["Update model weights"]
+    START["Random inference noise"] --> SAMPLE["Denoiser + sampler step"]
+    SAMPLE --> LOOP["Repeat over noise schedule"]
+    LOOP --> SAMPLE
+    LOOP --> DEC["Decode final latent / image"]
